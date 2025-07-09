@@ -1,0 +1,414 @@
+2025-07-08 09:19:28 [INFO] [AUTH] Token verified. User:
+{
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1751941109,
+  "exp": 1751944709
+}
+2025-07-08 09:19:28 [INFO] [ALLOWED] cfo_user (CFO) has access
+2025-07-08 09:31:51 [INFO] [LOGIN SUCCESS] cfo_user (CFO) berhasil login
+2025-07-08 09:34:38 [INFO] [REQUEST] Guest accessed GET /file/download/dino-maestro.jpg
+2025-07-08 09:34:38 [INFO] [AUTH] Token verified. User:
+{
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1751941911,
+  "exp": 1751945511
+}
+2025-07-08 09:34:38 [INFO] [ALLOWED] cfo_user (CFO) has access
+[2025-07-08 09:38:17] INFO - [REQUEST] Guest accessed GET /file/download/dino-maestro.jpg
+[2025-07-08 09:38:17] INFO - [AUTH] Token verified. User:
+{
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1751941911,
+  "exp": 1751945511
+}
+[2025-07-08 09:38:17] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-08 09:52:25] INFO - [REQUEST] Guest accessed POST /api/encrypt
+[2025-07-08 09:52:25] INFO - [AUTH] Token verified. User:
+{
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1751941911,
+  "exp": 1751945511
+}
+[2025-07-08 09:52:25] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-08 09:52:25] INFO - [UPLOAD] cfo_user (CFO) uploaded: chips.jpg
+[2025-07-08 09:52:25] INFO - [ENCRYPT] cfo_user encrypted: chips.jpg
+[2025-07-08 09:52:25] INFO - [SAVE ENCRYPTED] Saved encrypted file: chips.jpg.enc
+[2025-07-08 09:52:25] INFO - [RSA] AES key encrypted for file: chips.jpg.enc
+[2025-07-08 09:52:25] INFO - [PERFORMANCE] cfo_user - Time: 14.59ms | Memory: 0.11MB | CPU: 0.29%
+[2025-07-08 10:17:46] INFO - [REQUEST] Guest accessed POST /api/decrypt
+[2025-07-08 10:17:46] INFO - [DECRYPT REQUEST] Guest mencoba mendekripsi file: chips.jpg.enc
+[2025-07-08 10:17:46] INFO - [DECRYPT SUCCESS] Guest berhasil mendekripsi file: chips.jpg.enc dalam 8.92 ms
+[2025-07-08 10:49:04] INFO - [REQUEST] Guest accessed POST /api/bruteforce
+[2025-07-08 10:49:04] WARN - [BRUTEFORCE] Missing required parameter: id
+[2025-07-08 10:50:38] INFO - [REQUEST] Guest accessed POST /api/bruteforce
+[2025-07-08 10:50:38] WARN - [BRUTEFORCE] Missing required parameter: id
+[2025-07-08 10:51:28] INFO - [REQUEST] Guest accessed GET /api/get-key
+[2025-07-08 10:51:28] WARN - Unauthorized access: Malformed or missing token
+[2025-07-08 10:52:25] INFO - [REQUEST] Guest accessed GET /api/get-key
+[2025-07-08 10:52:25] WARN - Forbidden: Invalid token. Error: jwt expired
+[2025-07-08 10:52:33] INFO - [REQUEST] Guest accessed POST /auth/login
+[2025-07-08 10:52:33] INFO - [LOGIN SUCCESS] cfo_user (CFO) berhasil login
+[2025-07-08 10:52:49] INFO - [REQUEST] Guest accessed GET /api/get-key
+[2025-07-08 10:52:49] INFO - [AUTH] Token verified. User:
+{
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1751946753,
+  "exp": 1751950353
+}
+[2025-07-08 10:52:49] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-08 10:52:49] INFO - [GET-ALL] Retrieved 36 records
+[2025-07-08 10:59:06] INFO - [REQUEST] Guest accessed GET /api/get-key/1
+[2025-07-08 10:59:06] INFO - [AUTH] Token verified. User:
+{
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1751946753,
+  "exp": 1751950353
+}
+[2025-07-08 10:59:07] INFO - [GET-BY-ID] Retrieved record: ID 1
+[2025-07-08 10:59:22] INFO - [REQUEST] Guest accessed POST /api/bruteforce/1
+[2025-07-08 10:59:34] INFO - [REQUEST] Guest accessed POST /api/bruteforce/1
+[2025-07-08 10:59:38] INFO - [REQUEST] Guest accessed POST /api/bruteforce
+[2025-07-08 10:59:38] WARN - [BRUTEFORCE] Missing required parameter: id
+[2025-07-08 11:02:44] INFO - [REQUEST] Guest accessed POST /api/bruteforce
+[2025-07-08 11:02:44] INFO - [BRUTEFORCE] Starting brute-force process for file: /encrypted/jiu-villains.png.enc
+[2025-07-08 11:02:44] INFO - [BRUTEFORCE] AES key decrypted successfully for file: /encrypted/jiu-villains.png.enc
+[2025-07-08 11:02:44] INFO - [BRUTEFORCE] Trying 256 keys for brute-force...
+[2025-07-08 11:02:44] INFO - [BRUTEFORCE] File successfully decrypted with key: 102
+[2025-07-08 11:02:44] INFO - [BRUTEFORCE] Decrypted file saved at: /Users/Erlemico/Documents/Documents - macbook’s MacBook Pro/Moammar Saddam/College/Project/hybrid-cryptography-enterprise/backend/decrypted/jiu-villains.png
+[2025-07-08 11:52:31] INFO - [REQUEST] Guest accessed POST /auth/login
+[2025-07-08 11:52:31] INFO - [LOGIN SUCCESS] cfo_user (CFO) berhasil login
+[2025-07-08 13:21:41] INFO - [REQUEST] Guest accessed POST /auth/login
+[2025-07-08 13:21:41] INFO - [LOGIN SUCCESS] cfo_user (CFO) berhasil login
+[2025-07-08 13:22:47] INFO - [REQUEST] Guest accessed POST /encrypt
+[2025-07-08 13:23:02] INFO - [REQUEST] Guest accessed POST /api/encrypt
+[2025-07-08 13:23:02] INFO - [AUTH] Token verified. User:
+{
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1751955701,
+  "exp": 1751959301
+}
+[2025-07-08 13:23:02] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-08 13:23:02] INFO - [UPLOAD] cfo_user (CFO) uploaded: chips.jpg
+[2025-07-08 13:23:02] INFO - [ENCRYPT] cfo_user encrypted: chips.jpg
+[2025-07-08 13:23:02] INFO - [SAVE ENCRYPTED] Saved encrypted file: chips.jpg.enc
+[2025-07-08 13:23:02] INFO - [RSA] AES key encrypted for file: chips.jpg.enc
+[2025-07-08 13:23:02] INFO - [PERFORMANCE] cfo_user - Time: 23.63ms | Memory: -0.52MB | CPU: 0.76%
+[2025-07-08 13:23:38] INFO - [REQUEST] Guest accessed POST /api/encrypt
+[2025-07-08 13:23:45] INFO - [REQUEST] Guest accessed POST /encrypt
+[2025-07-08 13:23:45] INFO - [AUTH] Token verified. User:
+{
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1751955701,
+  "exp": 1751959301
+}
+[2025-07-08 13:23:45] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-08 13:23:45] INFO - [UPLOAD] cfo_user (CFO) uploaded: chips.jpg
+[2025-07-08 13:23:45] INFO - [ENCRYPT] cfo_user encrypted: chips.jpg
+[2025-07-08 13:23:45] INFO - [SAVE ENCRYPTED] Saved encrypted file: chips.jpg.enc
+[2025-07-08 13:23:45] INFO - [RSA] AES key encrypted for file: chips.jpg.enc
+[2025-07-08 13:23:45] INFO - [PERFORMANCE] cfo_user - Time: 14.08ms | Memory: 0.11MB | CPU: 6.73%
+[2025-07-08 13:24:54] INFO - [REQUEST] Guest accessed POST /api/decrypt
+[2025-07-08 13:25:00] INFO - [REQUEST] Guest accessed POST /decrypt
+[2025-07-08 13:25:00] WARN - Unauthorized access: Malformed or missing token
+[2025-07-08 13:25:59] INFO - [REQUEST] Guest accessed POST /decrypt
+[2025-07-08 13:25:59] INFO - [AUTH] Token verified. User:
+{
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1751955701,
+  "exp": 1751959301
+}
+[2025-07-08 13:25:59] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-08 13:25:59] INFO - [DECRYPT REQUEST] cfo_user mencoba mendekripsi file: chips.jpg.enc
+[2025-07-08 13:25:59] INFO - [DECRYPT SUCCESS] cfo_user berhasil mendekripsi file: chips.jpg.enc dalam 25.64 ms
+[2025-07-08 13:28:27] INFO - [REQUEST] Guest accessed POST /decrypt-by-id
+[2025-07-08 13:28:27] INFO - [AUTH] Token verified. User:
+{
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1751955701,
+  "exp": 1751959301
+}
+[2025-07-08 13:28:27] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-08 13:28:27] INFO - [DECRYPT BY ID REQUEST] cfo_user mencoba mendekripsi file ID: 1
+[2025-07-08 13:28:27] ERROR - [DECRYPT FAILED] File gagal didekripsi oleh cfo_user untuk ID 1: error:1C800064:Provider routines::bad decrypt
+[2025-07-08 13:30:15] INFO - [REQUEST] Guest accessed POST /decrypt-by-id
+[2025-07-08 13:30:15] INFO - [AUTH] Token verified. User:
+{
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1751955701,
+  "exp": 1751959301
+}
+[2025-07-08 13:30:15] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-08 13:30:15] INFO - [DECRYPT BY ID REQUEST] cfo_user mencoba mendekripsi file ID: 1
+[2025-07-08 13:30:15] ERROR - [DECRYPT FAILED] File gagal didekripsi oleh cfo_user untuk ID 1: error:1C800064:Provider routines::bad decrypt
+[2025-07-08 13:36:07] INFO - [REQUEST] Guest accessed POST /send-key
+[2025-07-08 13:36:07] INFO - [AUTH] Token verified. User:
+{
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1751955701,
+  "exp": 1751959301
+}
+[2025-07-08 13:36:07] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-08 13:36:07] WARN - [SAVE-DATA] Missing required fields
+[2025-07-08 13:36:17] INFO - [REQUEST] Guest accessed POST /send-key
+[2025-07-08 13:36:17] INFO - [AUTH] Token verified. User:
+{
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1751955701,
+  "exp": 1751959301
+}
+[2025-07-08 13:36:17] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-08 13:36:17] INFO - [SAVE-DATA] Encrypted data saved: chips.jpg.enc
+[2025-07-08 13:37:22] INFO - [REQUEST] Guest accessed POST /get-key
+[2025-07-08 13:38:00] INFO - [REQUEST] Guest accessed POST /get-key
+[2025-07-08 13:38:26] INFO - [REQUEST] Guest accessed GET /get-key
+[2025-07-08 13:38:26] INFO - [AUTH] Token verified. User:
+{
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1751955701,
+  "exp": 1751959301
+}
+[2025-07-08 13:38:26] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-08 13:38:26] INFO - [GET-ALL] Retrieved 37 records
+[2025-07-08 13:40:32] INFO - [REQUEST] Guest accessed POST /decrypt-by-id
+[2025-07-08 13:40:32] INFO - [AUTH] Token verified. User:
+{
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1751955701,
+  "exp": 1751959301
+}
+[2025-07-08 13:40:32] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-08 13:40:32] INFO - [DECRYPT BY ID REQUEST] cfo_user mencoba mendekripsi file ID: 37
+[2025-07-08 13:40:32] INFO - [DECRYPT SUCCESS] cfo_user berhasil mendekripsi file ID 37 dalam 41.39 ms
+[2025-07-08 13:42:40] INFO - [REQUEST] Guest accessed GET /get-key/1
+[2025-07-08 13:42:40] INFO - [AUTH] Token verified. User:
+{
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1751955701,
+  "exp": 1751959301
+}
+[2025-07-08 13:42:40] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-08 13:42:40] INFO - [GET-BY-ID] Retrieved record: ID 1
+[2025-07-08 13:43:18] INFO - [REQUEST] Guest accessed POST /bruteforce
+[2025-07-08 13:43:18] INFO - [AUTH] Token verified. User:
+{
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1751955701,
+  "exp": 1751959301
+}
+[2025-07-08 13:43:18] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-08 13:43:18] INFO - [BRUTEFORCE] Starting brute-force process for file: /encrypted/jiu-villains.png.enc
+[2025-07-08 13:43:18] INFO - [BRUTEFORCE] AES key decrypted successfully for file: /encrypted/jiu-villains.png.enc
+[2025-07-08 13:43:18] INFO - [BRUTEFORCE] Trying 256 keys for brute-force...
+[2025-07-08 13:43:19] INFO - [BRUTEFORCE] File successfully decrypted with key: 102
+[2025-07-08 13:43:19] INFO - [BRUTEFORCE] Decrypted file saved at: /Users/Erlemico/Documents/Documents - macbook’s MacBook Pro/Moammar Saddam/College/Project/hybrid-cryptography-enterprise/backend/decrypted/jiu-villains.png
+[2025-07-08 13:43:30] INFO - [REQUEST] Guest accessed POST /bruteforce
+[2025-07-08 13:43:30] INFO - [AUTH] Token verified. User:
+{
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1751955701,
+  "exp": 1751959301
+}
+[2025-07-08 13:43:30] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-08 13:43:30] INFO - [BRUTEFORCE] Starting brute-force process for file: /encrypted/jiu-villains.png.enc
+[2025-07-08 13:43:30] INFO - [BRUTEFORCE] AES key decrypted successfully for file: /encrypted/jiu-villains.png.enc
+[2025-07-08 13:43:30] INFO - [BRUTEFORCE] Trying 256 keys for brute-force...
+[2025-07-08 13:43:31] INFO - [BRUTEFORCE] File successfully decrypted with key: 102
+[2025-07-08 13:43:31] INFO - [BRUTEFORCE] Decrypted file saved at: /Users/Erlemico/Documents/Documents - macbook’s MacBook Pro/Moammar Saddam/College/Project/hybrid-cryptography-enterprise/backend/decrypted/jiu-villains.png
+[2025-07-08 13:43:39] INFO - [REQUEST] Guest accessed POST /bruteforce
+[2025-07-08 13:43:39] INFO - [AUTH] Token verified. User:
+{
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1751955701,
+  "exp": 1751959301
+}
+[2025-07-08 13:43:39] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-08 13:43:39] INFO - [BRUTEFORCE] Starting brute-force process for file:  -5.jpg.enc
+[2025-07-08 13:43:39] INFO - [BRUTEFORCE] AES key decrypted successfully for file:  -5.jpg.enc
+[2025-07-08 13:43:39] INFO - [BRUTEFORCE] Trying 256 keys for brute-force...
+[2025-07-08 13:43:39] WARN - [BRUTEFORCE] Brute-force failed: no valid key found.
+[2025-07-08 13:43:52] INFO - [REQUEST] Guest accessed POST /bruteforce
+[2025-07-08 13:43:52] INFO - [AUTH] Token verified. User:
+{
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1751955701,
+  "exp": 1751959301
+}
+[2025-07-08 13:43:52] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-08 13:43:52] INFO - [BRUTEFORCE] Starting brute-force process for file: chips.jpg.enc
+[2025-07-08 13:43:52] INFO - [BRUTEFORCE] AES key decrypted successfully for file: chips.jpg.enc
+[2025-07-08 13:43:52] INFO - [BRUTEFORCE] Trying 256 keys for brute-force...
+[2025-07-08 13:43:53] WARN - [BRUTEFORCE] Brute-force failed: no valid key found.
+[2025-07-08 13:44:26] INFO - [REQUEST] Guest accessed POST /bruteforce
+[2025-07-08 13:44:26] INFO - [AUTH] Token verified. User:
+{
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1751955701,
+  "exp": 1751959301
+}
+[2025-07-08 13:44:26] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-08 13:44:26] INFO - [BRUTEFORCE] Starting brute-force process for file: /encrypted/jiu-villains.png.enc
+[2025-07-08 13:44:26] INFO - [BRUTEFORCE] AES key decrypted successfully for file: /encrypted/jiu-villains.png.enc
+[2025-07-08 13:44:26] INFO - [BRUTEFORCE] Trying 256 keys for brute-force...
+[2025-07-08 13:44:27] INFO - [BRUTEFORCE] File successfully decrypted with key: 102
+[2025-07-08 13:44:27] INFO - [BRUTEFORCE] Decrypted file saved at: /Users/Erlemico/Documents/Documents - macbook’s MacBook Pro/Moammar Saddam/College/Project/hybrid-cryptography-enterprise/backend/decrypted/jiu-villains.png
+[2025-07-08 13:45:06] INFO - [REQUEST] Guest accessed POST /bruteforce
+[2025-07-08 13:45:06] INFO - [AUTH] Token verified. User:
+{
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1751955701,
+  "exp": 1751959301
+}
+[2025-07-08 13:45:06] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-08 13:45:06] INFO - [BRUTEFORCE] Starting brute-force process for file: /encrypted/jiu-villains.png.enc
+[2025-07-08 13:45:06] INFO - [BRUTEFORCE] AES key decrypted successfully for file: /encrypted/jiu-villains.png.enc
+[2025-07-08 13:45:06] INFO - [BRUTEFORCE] Trying 256 keys for brute-force...
+[2025-07-08 13:45:07] INFO - [BRUTEFORCE] File successfully decrypted with key: 102
+[2025-07-08 13:45:07] INFO - [BRUTEFORCE] Decrypted file saved at: /Users/Erlemico/Documents/Documents - macbook’s MacBook Pro/Moammar Saddam/College/Project/hybrid-cryptography-enterprise/backend/decrypted/jiu-villains.png
+[2025-07-08 13:45:14] INFO - [REQUEST] Guest accessed POST /bruteforce
+[2025-07-08 13:45:14] INFO - [AUTH] Token verified. User:
+{
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1751955701,
+  "exp": 1751959301
+}
+[2025-07-08 13:45:14] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-08 13:45:14] INFO - [BRUTEFORCE] Starting brute-force process for file: /encrypted/jiu-minji.jpg.enc
+[2025-07-08 13:45:14] INFO - [BRUTEFORCE] AES key decrypted successfully for file: /encrypted/jiu-minji.jpg.enc
+[2025-07-08 13:45:14] INFO - [BRUTEFORCE] Trying 256 keys for brute-force...
+[2025-07-08 13:45:14] WARN - [BRUTEFORCE] Brute-force failed: no valid key found.
+[2025-07-08 13:45:46] INFO - [REQUEST] Guest accessed POST /bruteforce
+[2025-07-08 13:45:46] INFO - [AUTH] Token verified. User:
+{
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1751955701,
+  "exp": 1751959301
+}
+[2025-07-08 13:45:46] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-08 13:45:46] INFO - [BRUTEFORCE] Starting brute-force process for file: /encrypted/jiu-villains.png.enc
+[2025-07-08 13:45:46] INFO - [BRUTEFORCE] AES key decrypted successfully for file: /encrypted/jiu-villains.png.enc
+[2025-07-08 13:45:46] INFO - [BRUTEFORCE] Trying 256 keys for brute-force...
+[2025-07-08 13:45:46] INFO - [BRUTEFORCE] File successfully decrypted with key: 102
+[2025-07-08 13:45:46] INFO - [BRUTEFORCE] Decrypted file saved at: /Users/Erlemico/Documents/Documents - macbook’s MacBook Pro/Moammar Saddam/College/Project/hybrid-cryptography-enterprise/backend/decrypted/jiu-villains.png
+[2025-07-08 13:47:24] INFO - [REQUEST] Guest accessed POST /bruteforce
+[2025-07-08 13:47:24] INFO - [AUTH] Token verified. User:
+{
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1751955701,
+  "exp": 1751959301
+}
+[2025-07-08 13:47:24] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-08 13:47:24] INFO - [BRUTEFORCE] Starting brute-force process for file: chips.jpg.enc
+[2025-07-08 13:47:24] INFO - [BRUTEFORCE] AES key decrypted successfully for file: chips.jpg.enc
+[2025-07-08 13:47:24] INFO - [BRUTEFORCE] Trying 256 keys for brute-force...
+[2025-07-08 13:47:24] WARN - [BRUTEFORCE] Brute-force failed: no valid key found.
+[2025-07-08 13:50:46] INFO - [REQUEST] Guest accessed POST /bruteforce
+[2025-07-08 13:50:46] INFO - [AUTH] Token verified. User:
+{
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1751955701,
+  "exp": 1751959301
+}
+[2025-07-08 13:50:46] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-08 13:50:46] INFO - [BRUTEFORCE] Starting brute-force process for file: chips.jpg.enc
+[2025-07-08 13:50:46] INFO - [BRUTEFORCE] AES key decrypted successfully for file: chips.jpg.enc
+[2025-07-08 13:50:46] INFO - [BRUTEFORCE] Trying 256 keys for brute-force...
+[2025-07-08 13:50:46] WARN - [BRUTEFORCE] Brute-force failed: no valid key found.
+[2025-07-08 14:09:29] INFO - [REQUEST] Guest accessed POST /bruteforce
+[2025-07-08 14:09:29] INFO - [AUTH] Token verified. User:
+{
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1751955701,
+  "exp": 1751959301
+}
+[2025-07-08 14:09:29] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-08 14:09:29] INFO - [BRUTEFORCE] Starting brute-force process for file: chips.jpg.enc
+[2025-07-08 14:09:29] INFO - [BRUTEFORCE] Trying 256 AES keys...
+[2025-07-08 14:09:29] WARN - [BRUTEFORCE] Brute-force failed: no valid key found.
+[2025-07-08 14:09:31] INFO - [REQUEST] Guest accessed POST /bruteforce
+[2025-07-08 14:09:31] INFO - [AUTH] Token verified. User:
+{
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1751955701,
+  "exp": 1751959301
+}
+[2025-07-08 14:09:31] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-08 14:09:31] INFO - [BRUTEFORCE] Starting brute-force process for file: chips.jpg.enc
+[2025-07-08 14:09:31] INFO - [BRUTEFORCE] Trying 256 AES keys...
+[2025-07-08 14:09:31] WARN - [BRUTEFORCE] Brute-force failed: no valid key found.
+[2025-07-08 14:10:21] INFO - [REQUEST] Guest accessed POST /bruteforce
+[2025-07-08 14:10:21] INFO - [AUTH] Token verified. User:
+{
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1751955701,
+  "exp": 1751959301
+}
+[2025-07-08 14:10:21] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-08 14:10:21] INFO - [BRUTEFORCE] Starting brute-force process for file: chips.jpg.enc
+[2025-07-08 14:10:21] INFO - [BRUTEFORCE] Trying 256 keys for brute-force...
+[2025-07-08 14:10:22] WARN - [BRUTEFORCE] Brute-force failed: no valid key found.
+[2025-07-08 14:16:19] INFO - [REQUEST] Guest accessed POST /bruteforce
+[2025-07-08 14:16:19] INFO - [AUTH] Token verified. User:
+{
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1751955701,
+  "exp": 1751959301
+}
+[2025-07-08 14:16:19] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-08 14:16:19] INFO - [BRUTEFORCE] Decrypted AES Key: d8a6f16c61c59d15992dc2529475f8eace867b8bb11fc90e86c6a3bb79eb7e8b
+[2025-07-08 14:16:19] INFO - [BRUTEFORCE] Starting brute-force over 256 possible keys...
+[2025-07-08 14:16:20] WARN - [BRUTEFORCE] Failed to brute-force the encrypted file
+[2025-07-08 14:16:49] INFO - [REQUEST] Guest accessed POST /bruteforce
+[2025-07-08 14:16:49] INFO - [AUTH] Token verified. User:
+{
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1751955701,
+  "exp": 1751959301
+}
+[2025-07-08 14:16:49] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-08 14:16:50] INFO - [BRUTEFORCE] Decrypted AES Key: 1867b2a28837e0864bdec881a6c8351b3ee532bb60a5c63a6c46234ceb22df6d
+[2025-07-08 14:16:50] INFO - [BRUTEFORCE] Starting brute-force over 256 possible keys...
+[2025-07-08 14:16:50] INFO - [BRUTEFORCE] Key 102 successfully decrypted the file!
+[2025-07-08 14:16:50] INFO - [BRUTEFORCE] Decrypted file saved to: /Users/Erlemico/Documents/Documents - macbook’s MacBook Pro/Moammar Saddam/College/Project/hybrid-cryptography-enterprise/backend/decrypted/jiu-villains.png
+[2025-07-08 14:16:57] INFO - [REQUEST] Guest accessed POST /bruteforce
+[2025-07-08 14:16:57] INFO - [AUTH] Token verified. User:
+{
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1751955701,
+  "exp": 1751959301
+}
+[2025-07-08 14:16:57] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-08 14:16:57] INFO - [BRUTEFORCE] Decrypted AES Key: d6020a0613b205e7af179bcf67ec6a5962ede6ccb9d11ddae6122f3fd16750bc
+[2025-07-08 14:16:57] INFO - [BRUTEFORCE] Starting brute-force over 256 possible keys...
+[2025-07-08 14:16:57] WARN - [BRUTEFORCE] Failed to brute-force the encrypted file

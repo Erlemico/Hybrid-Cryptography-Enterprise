@@ -1,0 +1,6 @@
+node_modules
+private.pem
+public.pem
+encrypted
+decrypted
+.env
