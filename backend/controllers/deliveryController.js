@@ -1,64 +1,34 @@
 const crypto = require("crypto");
-const { EncryptedFile } = require("../models");
+const { EncryptedFile, Log } = require("../models");
 const logger = require("../utils/logger");
 
-exports.saveData = async (req, res, next) => {
-  try {
-    const { fileName, rsaKey, iv } = req.body;
-
-    if (!fileName || !rsaKey || !iv) {
-      logger.warn("[SAVE-DATA] Missing required fields");
-      return res.status(400).json({
-        status: "error",
-        message: "Field is empty. All fields are required.",
-      });
-    }
-
-    const ivBuffer = Buffer.from(iv, "base64");
-    if (ivBuffer.length !== 16) {
-      logger.warn("[SAVE-DATA] Invalid IV length");
-      return res.status(400).json({
-        status: "error",
-        message: "IV invalid. Must be 16 bytes when decoded.",
-      });
-    }
-
-    const SECRET_KEY = process.env.SECRET_KEY
-      ? Buffer.from(process.env.SECRET_KEY, "hex")
-      : Buffer.from("12345678901234567890123456789012");
-
-    if (SECRET_KEY.length !== 32) {
-      throw new Error("SECRET_KEY must be 32 bytes for AES-256.");
-    }
-
-    const newFile = await EncryptedFile.create({
-      fileName,
-      rsaKey: rsaKey,
-      iv,
-    });
-
-    logger.info(`[SAVE-DATA] Encrypted data saved: ${fileName}`);
-
-    res.status(201).json({
-      status: "success",
-      message: "Data saved successfully.",
-    });
-  } catch (error) {
-    logger.error(`[SAVE-DATA] Error: ${error.message}`);
-    next(error);
-  }
-};
-
 exports.getAllData = async (req, res, next) => {
+  let logEntry;
+  const user = req.user;
+  const userId = user?.id || null;
+  const ip = req.ip;
+  const endpoint = req.originalUrl;
+
   try {
+    logEntry = await Log.create({
+      userId,
+      endpointAccess: endpoint,
+      action: "GET_ALL",
+      status: "IN_PROGRESS",
+      fileName: "-",
+      ip,
+    });
+
     const files = await EncryptedFile.findAll();
 
-    if (!files || files.length === 0) {
-      logger.warn("[GET-ALL] No data found");
+    if (!files.length) {
+      logger.warn("[GET_ALL] No data found");
+      await logEntry.update({ status: "FAILED" });
+
       return res.status(404).json({
         status: "error",
         message: "No data found.",
-        data: {},
+        data: [],
       });
     }
 
@@ -70,26 +40,45 @@ exports.getAllData = async (req, res, next) => {
       createdAt: file.createdAt,
     }));
 
-    logger.info(`[GET-ALL] Retrieved ${data.length} records`);
+    logger.info(`[GET_ALL] Retrieved ${data.length} records`);
+    await logEntry.update({ status: "SUCCESS" });
 
     res.status(200).json({
       status: "success",
       message: "Data retrieved successfully.",
-      data: data,
+      data,
     });
   } catch (error) {
-    logger.error(`[GET-ALL] Error: ${error.message}`);
+    if (logEntry) await logEntry.update({ status: "FAILED" });
+    logger.error(`[GET_ALL] Error: ${error.message}`);
     next(error);
   }
 };
 
 exports.getById = async (req, res, next) => {
+  let logEntry;
+  const user = req.user;
+  const userId = user?.id || null;
+  const ip = req.ip;
+  const endpoint = req.originalUrl;
+  const { id } = req.params;
+
   try {
-    const { id } = req.params;
+    logEntry = await Log.create({
+      userId,
+      endpointAccess: endpoint,
+      ip,
+      action: "GET_BY_ID",
+      status: "IN_PROGRESS",
+      fileName: "-",
+    });
+
     const file = await EncryptedFile.findByPk(id);
 
     if (!file) {
-      logger.warn(`[GET-BY-ID] Record not found: ID ${id}`);
+      logger.warn(`[GET_BY_ID] Record not found: ID ${id}`);
+      await logEntry.update({ status: "FAILED" });
+
       return res.status(404).json({
         status: "error",
         message: "Record not found.",
@@ -104,15 +93,17 @@ exports.getById = async (req, res, next) => {
       createdAt: file.createdAt,
     };
 
-    logger.info(`[GET-BY-ID] Retrieved record: ID ${id}`);
+    logger.info(`[GET_BY_ID] Retrieved record: ID ${id}`);
+    await logEntry.update({ status: "SUCCESS" });
 
     res.status(200).json({
       status: "success",
       message: "Data retrieved successfully.",
-      data: data,
+      data,
     });
   } catch (error) {
-    logger.error(`[GET-BY-ID] Error: ${error.message}`);
+    if (logEntry) await logEntry.update({ status: "FAILED" });
+    logger.error(`[GET_BY_ID] Error: ${error.message}`);
     next(error);
   }
 };

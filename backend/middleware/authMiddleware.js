@@ -18,9 +18,14 @@ function verifyToken(req, res, next) {
 
   try {
     const decoded = jwt.verify(token, secretKey);
-    req.user = decoded;
+    req.user = {
+      id: decoded.id,
+      username: decoded.username,
+      role: decoded.role,
+    };
+
     logger.info(
-      `[AUTH] Token verified. User:\n${JSON.stringify(decoded, null, 2)}`
+      `[AUTH] Token verified. User:\n${JSON.stringify(req.user, null, 2)}`
     );
     next();
   } catch (err) {

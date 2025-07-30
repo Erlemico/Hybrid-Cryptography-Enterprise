@@ -1,25 +1,43 @@
-'use strict';
-const {
-  Model
-} = require('sequelize');
+"use strict";
+const { Model } = require("sequelize");
+
 module.exports = (sequelize, DataTypes) => {
   class EncryptedFile extends Model {
-    /**
-     * Helper method for defining associations.
-     * This method is not a part of Sequelize lifecycle.
-     * The `models/index` file will call this method automatically.
-     */
     static associate(models) {
-      // define association here
+      EncryptedFile.belongsTo(models.User, { foreignKey: "userId" });
     }
   }
-  EncryptedFile.init({
-    fileName: DataTypes.STRING,
-    rsaKey: DataTypes.TEXT,
-    iv: DataTypes.STRING
-  }, {
-    sequelize,
-    modelName: 'EncryptedFile',
-  });
+
+  EncryptedFile.init(
+    {
+      fileName: {
+        type: DataTypes.STRING,
+        allowNull: false,
+      },
+      rsaKey: {
+        type: DataTypes.TEXT,
+        allowNull: false,
+      },
+      iv: {
+        type: DataTypes.STRING,
+        allowNull: false,
+      },
+      originalHash: {
+        type: DataTypes.STRING,
+        allowNull: false,
+      },
+      userId: {
+        type: DataTypes.INTEGER,
+        allowNull: false,
+      },
+    },
+    {
+      sequelize,
+      modelName: "EncryptedFile",
+      tableName: "EncryptedFiles",
+      timestamps: true,
+    }
+  );
+
   return EncryptedFile;
 };

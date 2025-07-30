@@ -2,7 +2,7 @@
   "development": {
     "username": "postgres",
     "password": "",
-    "database": "secure_storage",
+    "database": "secure_vault",
     "host": "127.0.0.1",
     "dialect": "postgres"
   },

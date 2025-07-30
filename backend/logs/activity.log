@@ -412,3 +412,2638 @@
 [2025-07-08 14:16:57] INFO - [BRUTEFORCE] Decrypted AES Key: d6020a0613b205e7af179bcf67ec6a5962ede6ccb9d11ddae6122f3fd16750bc
 [2025-07-08 14:16:57] INFO - [BRUTEFORCE] Starting brute-force over 256 possible keys...
 [2025-07-08 14:16:57] WARN - [BRUTEFORCE] Failed to brute-force the encrypted file
+[2025-07-09 10:30:13] INFO - [REQUEST] Guest accessed POST /auth/login
+[2025-07-09 10:30:13] INFO - [LOGIN SUCCESS] cfo_user (CFO) berhasil login
+[2025-07-09 10:30:40] INFO - [REQUEST] Guest accessed POST /encrypt
+[2025-07-09 10:30:40] INFO - [AUTH] Token verified. User:
+{
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1752031813,
+  "exp": 1752035413
+}
+[2025-07-09 10:30:40] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-09 10:30:40] WARN - [UPLOAD FAILED] cfo_user tried to upload without file
+[2025-07-09 10:31:15] INFO - [REQUEST] Guest accessed POST /encrypt
+[2025-07-09 10:31:15] INFO - [AUTH] Token verified. User:
+{
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1752031813,
+  "exp": 1752035413
+}
+[2025-07-09 10:31:15] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-09 10:31:15] INFO - [UPLOAD] cfo_user (CFO) uploaded: 3. Survival Proportion.png
+[2025-07-09 10:31:15] INFO - [HASH] SHA-256 for 3. Survival Proportion.png: b75fbf4d89e59cdc17a69eb22320010ef00108a4bbdf132299813af4fc818d4f
+[2025-07-09 10:31:15] INFO - [ENCRYPT] cfo_user encrypted: 3. Survival Proportion.png
+[2025-07-09 10:31:16] INFO - [SAVE ENCRYPTED] Saved encrypted file: 3. Survival Proportion.png.enc
+[2025-07-09 10:31:16] INFO - [RSA] AES key encrypted for file: 3. Survival Proportion.png.enc
+[2025-07-09 10:31:16] INFO - [PERFORMANCE] cfo_user - Time: 186.61ms | Memory: 0.13MB | CPU: 0.99%
+[2025-07-09 10:35:54] INFO - [REQUEST] Guest accessed POST /encrypt
+[2025-07-09 10:35:54] INFO - [AUTH] Token verified. User:
+{
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1752031813,
+  "exp": 1752035413
+}
+[2025-07-09 10:35:54] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-09 10:35:54] INFO - [UPLOAD] cfo_user (CFO) uploaded: chips.jpg
+[2025-07-09 10:35:54] INFO - [HASH] SHA-256 for chips.jpg: 336727b6df6dd37d2cfac5e7fa3045e724144cbd9c13b6351b0ec158a26241e5
+[2025-07-09 10:35:54] INFO - [ENCRYPT] cfo_user encrypted: chips.jpg
+[2025-07-09 10:35:54] INFO - [SAVE ENCRYPTED] Saved encrypted file: chips.jpg.enc
+[2025-07-09 10:35:54] INFO - [RSA] AES key encrypted for file: chips.jpg.enc
+[2025-07-09 10:35:54] INFO - [PERFORMANCE] cfo_user - Time: 123.56ms | Memory: 0.37MB | CPU: 2.87%
+[2025-07-09 10:37:30] INFO - [REQUEST] Guest accessed POST /decrypt
+[2025-07-09 10:37:30] INFO - [AUTH] Token verified. User:
+{
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1752031813,
+  "exp": 1752035413
+}
+[2025-07-09 10:37:30] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-09 10:37:30] INFO - [DECRYPT REQUEST] cfo_user mencoba mendekripsi file: chips.jpg.enc
+[2025-07-09 10:37:30] WARN - [INTEGRITY CHECK FAILED] File chips.jpg.enc gagal verifikasi SHA-256 oleh cfo_user
+[2025-07-09 10:37:30] INFO - [DECRYPT SUCCESS] cfo_user berhasil mendekripsi file: chips.jpg.enc dalam 54.14 ms
+[2025-07-09 10:43:03] INFO - [REQUEST] Guest accessed POST /decrypt
+[2025-07-09 10:43:03] INFO - [AUTH] Token verified. User:
+{
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1752031813,
+  "exp": 1752035413
+}
+[2025-07-09 10:43:03] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-09 10:43:03] INFO - [DECRYPT REQUEST] cfo_user mencoba mendekripsi file: chips.jpg.enc
+[2025-07-09 10:43:03] WARN - [INTEGRITY CHECK FAILED] File chips.jpg.enc gagal verifikasi SHA-256 oleh cfo_user
+[2025-07-09 10:43:03] INFO - [DECRYPT SUCCESS] cfo_user berhasil mendekripsi file: chips.jpg.enc dalam 141.93 ms
+[2025-07-09 10:46:57] INFO - [REQUEST] Guest accessed POST /decrypt
+[2025-07-09 10:46:57] INFO - [AUTH] Token verified. User:
+{
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1752031813,
+  "exp": 1752035413
+}
+[2025-07-09 10:46:57] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-09 10:46:57] INFO - [DECRYPT REQUEST] cfo_user mencoba mendekripsi file: chips.jpg.enc
+[2025-07-09 10:46:57] INFO - [INTEGRITY CHECK] File chips.jpg.enc lolos verifikasi SHA-256 oleh cfo_user
+[2025-07-09 10:46:57] INFO - [DECRYPT SUCCESS] cfo_user berhasil mendekripsi file: chips.jpg.enc dalam 407.61 ms
+[2025-07-09 10:56:54] INFO - [REQUEST] Guest accessed POST /auth/login
+[2025-07-09 10:56:54] INFO - [LOGIN SUCCESS] cfo_user (CFO) berhasil login
+[2025-07-09 10:56:56] INFO - [REQUEST] Guest accessed POST /auth/login
+[2025-07-09 10:56:56] INFO - [LOGIN SUCCESS] cfo_user (CFO) berhasil login
+[2025-07-09 11:13:09] INFO - [REQUEST] Guest accessed POST /auth/login
+[2025-07-09 11:13:09] INFO - [LOGIN SUCCESS] cfo_user (CFO) berhasil login
+[2025-07-09 11:13:44] INFO - [REQUEST] Guest accessed POST /encrypt
+[2025-07-09 11:13:44] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1752034389,
+  "exp": 1752037989
+}
+[2025-07-09 11:13:44] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-09 11:13:44] INFO - [UPLOAD] cfo_user (CFO) uploaded: chips.jpg
+[2025-07-09 11:13:44] INFO - [HASH] SHA-256 for chips.jpg: 336727b6df6dd37d2cfac5e7fa3045e724144cbd9c13b6351b0ec158a26241e5
+[2025-07-09 11:13:44] INFO - [ENCRYPT] cfo_user encrypted: chips.jpg
+[2025-07-09 11:13:44] INFO - [SAVE ENCRYPTED] Saved encrypted file: chips.jpg.enc
+[2025-07-09 11:13:44] INFO - [RSA] AES key encrypted for file: chips.jpg.enc
+[2025-07-09 11:13:44] INFO - [PERFORMANCE] cfo_user - Time: 63.64ms | Memory: 0.49MB | CPU: 2.10%
+[2025-07-09 11:14:36] INFO - [REQUEST] Guest accessed POST /decrypt
+[2025-07-09 11:14:36] INFO - [AUTH] Token verified. User:
+{
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1752031813,
+  "exp": 1752035413
+}
+[2025-07-09 11:14:36] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-09 11:14:36] INFO - [DECRYPT REQUEST] cfo_user mencoba mendekripsi file: chips.jpg.enc
+[2025-07-09 11:14:37] INFO - [INTEGRITY CHECK] File chips.jpg.enc lolos verifikasi SHA-256 oleh cfo_user
+[2025-07-09 11:14:37] INFO - [DECRYPT SUCCESS] cfo_user berhasil mendekripsi file: chips.jpg.enc dalam 153.54 ms
+[2025-07-10 15:28:45] INFO - [REQUEST] Guest accessed POST /auth/login
+[2025-07-10 15:28:45] INFO - [LOGIN SUCCESS] cfo_user berhasil login
+[2025-07-10 15:51:07] INFO - [REQUEST] Guest accessed POST /auth/login
+[2025-07-10 15:51:07] INFO - [LOGIN SUCCESS] cfo_user (CFO) berhasil login
+[2025-07-11 07:22:14] INFO - [REQUEST] Guest accessed POST /auth/login
+[2025-07-11 07:22:15] INFO - [LOGIN SUCCESS] cfo_user berhasil login
+[2025-07-11 07:25:06] INFO - [REQUEST] Guest accessed POST /auth/login
+[2025-07-11 07:25:06] INFO - [LOGIN SUCCESS] cfo_user berhasil login
+[2025-07-11 07:26:45] INFO - [REQUEST] Guest accessed POST /encrypt
+[2025-07-11 07:26:45] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1752193506,
+  "exp": 1752197106
+}
+[2025-07-11 07:26:45] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-11 07:26:45] WARN - [UPLOAD FAILED] cfo_user tried to upload without file
+[2025-07-11 07:27:35] INFO - [REQUEST] Guest accessed POST /encrypt
+[2025-07-11 07:27:35] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1752193506,
+  "exp": 1752197106
+}
+[2025-07-11 07:27:35] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-11 07:27:35] INFO - [UPLOAD] cfo_user (CFO) uploaded: chips.jpg
+[2025-07-11 07:27:35] INFO - [HASH] SHA-256 for chips.jpg: 336727b6df6dd37d2cfac5e7fa3045e724144cbd9c13b6351b0ec158a26241e5
+[2025-07-11 07:27:35] INFO - [ENCRYPT] cfo_user encrypted: chips.jpg
+[2025-07-11 07:27:35] INFO - [SAVE ENCRYPTED] Saved encrypted file: chips.jpg.enc
+[2025-07-11 07:27:35] INFO - [RSA] AES key encrypted for file: chips.jpg.enc
+[2025-07-11 07:27:35] INFO - [PERFORMANCE] cfo_user - Time: 138.31ms | Memory: 0.23MB | CPU: 0.56%
+[2025-07-11 07:29:47] INFO - [REQUEST] Guest accessed POST /auth/login
+[2025-07-11 07:29:48] INFO - [LOGIN SUCCESS] cfo_user berhasil login
+[2025-07-11 07:30:26] INFO - [REQUEST] Guest accessed POST /auth/login
+[2025-07-11 07:30:27] INFO - [LOGIN SUCCESS] cfo_user berhasil login
+[2025-07-11 07:32:46] INFO - [REQUEST] Guest accessed POST /auth/login
+[2025-07-11 07:32:46] INFO - [LOGIN SUCCESS] cfo_user berhasil login
+[2025-07-11 07:43:27] INFO - [REQUEST] Guest accessed POST /bruteforce
+[2025-07-11 07:43:27] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1752193966,
+  "exp": 1752197566
+}
+[2025-07-11 07:43:27] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-11 07:43:27] WARN - [BRUTEFORCE] File record not found for ID: 4
+[2025-07-11 07:44:03] INFO - [REQUEST] Guest accessed POST /bruteforce
+[2025-07-11 07:44:03] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1752193966,
+  "exp": 1752197566
+}
+[2025-07-11 07:44:03] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-11 07:44:03] INFO - [BRUTEFORCE] AES key decrypted successfully
+[2025-07-11 07:44:03] INFO - [BRUTEFORCE] Starting brute-force over 256 keys
+[2025-07-11 07:44:03] WARN - [BRUTEFORCE] Brute-force failed on file chips.jpg.enc
+[2025-07-11 07:44:43] INFO - [REQUEST] Guest accessed POST /bruteforce
+[2025-07-11 07:44:43] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1752193966,
+  "exp": 1752197566
+}
+[2025-07-11 07:44:43] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-11 07:44:44] INFO - [BRUTEFORCE] AES key decrypted successfully
+[2025-07-11 07:44:44] INFO - [BRUTEFORCE] Starting brute-force over 256 keys
+[2025-07-11 07:44:44] WARN - [BRUTEFORCE] Brute-force failed on file chips.jpg.enc
+[2025-07-11 07:45:03] INFO - [REQUEST] Guest accessed POST /bruteforce
+[2025-07-11 07:45:03] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1752193966,
+  "exp": 1752197566
+}
+[2025-07-11 07:45:03] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-11 07:45:04] INFO - [BRUTEFORCE] AES key decrypted successfully
+[2025-07-11 07:45:04] INFO - [BRUTEFORCE] Starting brute-force over 256 keys
+[2025-07-11 07:45:04] WARN - [BRUTEFORCE] Brute-force failed on file chips.jpg.enc
+[2025-07-11 07:45:57] INFO - [REQUEST] Guest accessed POST /bruteforce
+[2025-07-11 07:45:58] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1752193966,
+  "exp": 1752197566
+}
+[2025-07-11 07:45:58] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-11 07:45:58] INFO - [BRUTEFORCE] AES key decrypted successfully
+[2025-07-11 07:45:58] INFO - [BRUTEFORCE] Starting brute-force over 256 keys
+[2025-07-11 07:45:58] WARN - [BRUTEFORCE] Brute-force failed on file chips.jpg.enc
+[2025-07-11 07:53:45] INFO - [REQUEST] Guest accessed POST /bruteforce
+[2025-07-11 07:53:45] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1752193966,
+  "exp": 1752197566
+}
+[2025-07-11 07:53:45] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-11 07:53:45] INFO - [BRUTEFORCE] AES key decrypted successfully
+[2025-07-11 07:53:45] INFO - [BRUTEFORCE] Starting brute-force over 256 keys
+[2025-07-11 07:53:46] WARN - [BRUTEFORCE] Brute-force failed on file chips.jpg.enc
+[2025-07-11 07:54:56] INFO - [REQUEST] Guest accessed POST /bruteforce
+[2025-07-11 07:54:56] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1752193966,
+  "exp": 1752197566
+}
+[2025-07-11 07:54:56] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-11 07:54:56] INFO - [BRUTEFORCE] AES key decrypted successfully
+[2025-07-11 07:54:56] INFO - [BRUTEFORCE] Starting brute-force over 256 keys
+[2025-07-11 07:54:56] WARN - [BRUTEFORCE] Brute-force failed on file chips.jpg.enc
+[2025-07-11 07:55:57] INFO - [REQUEST] Guest accessed POST /bruteforce
+[2025-07-11 07:55:57] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1752193966,
+  "exp": 1752197566
+}
+[2025-07-11 07:55:57] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-11 07:55:57] INFO - [BRUTEFORCE] Starting brute-force over 256 keys
+[2025-07-11 07:55:58] WARN - [BRUTEFORCE] Brute-force failed on file chips.jpg.enc
+[2025-07-11 07:59:47] INFO - [REQUEST] Guest accessed POST /encrypt
+[2025-07-11 07:59:47] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1752193966,
+  "exp": 1752197566
+}
+[2025-07-11 07:59:47] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-11 07:59:47] INFO - [UPLOAD] File uploaded successfully
+[2025-07-11 07:59:47] INFO - [HASH] SHA-256 hash calculated
+[2025-07-11 07:59:47] INFO - [ENCRYPT] File encrypted with AES
+[2025-07-11 07:59:47] INFO - [SAVE ENCRYPTED] Encrypted file saved
+[2025-07-11 07:59:47] INFO - [RSA] AES key encrypted using RSA
+[2025-07-11 07:59:48] INFO - [PERFORMANCE] Encrypt process completed
+[2025-07-11 08:04:19] INFO - [REQUEST] Guest accessed POST /encrypt
+[2025-07-11 08:04:19] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1752193966,
+  "exp": 1752197566
+}
+[2025-07-11 08:04:19] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-11 08:04:19] INFO - [UPLOAD] File uploaded
+[2025-07-11 08:04:19] INFO - [PERFORMANCE] Encrypt chips.jpg -> chips.jpg.enc
+[2025-07-11 08:05:31] INFO - [REQUEST] Guest accessed POST /encrypt
+[2025-07-11 08:05:31] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1752193966,
+  "exp": 1752197566
+}
+[2025-07-11 08:05:31] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-11 08:05:31] INFO - [PERFORMANCE] Encrypt process completed
+[2025-07-11 08:06:11] INFO - [REQUEST] Guest accessed POST /encrypt
+[2025-07-11 08:06:11] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1752193966,
+  "exp": 1752197566
+}
+[2025-07-11 08:06:11] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-11 08:06:11] INFO - [PERFORMANCE] Encrypt process completed
+[2025-07-11 08:06:58] INFO - [REQUEST] Guest accessed POST /encrypt
+[2025-07-11 08:06:58] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1752193966,
+  "exp": 1752197566
+}
+[2025-07-11 08:06:58] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-11 08:06:58] INFO - [PERFORMANCE] Encrypt process completed
+[2025-07-11 08:08:35] INFO - [REQUEST] Guest accessed POST /encrypt
+[2025-07-11 08:08:35] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1752193966,
+  "exp": 1752197566
+}
+[2025-07-11 08:08:35] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-11 08:08:35] INFO - [ENCRYPT SUCCESS] File processed and encrypted
+[2025-07-11 08:10:44] INFO - [REQUEST] Guest accessed POST /encrypt
+[2025-07-11 08:10:44] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1752193966,
+  "exp": 1752197566
+}
+[2025-07-11 08:10:44] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-11 08:10:45] INFO - [ENCRYPT SUCCESS] File processed
+[2025-07-11 08:13:34] INFO - [REQUEST] Guest accessed POST /encrypt
+[2025-07-11 08:13:34] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1752193966,
+  "exp": 1752197566
+}
+[2025-07-11 08:13:34] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-11 08:13:35] INFO - [ENCRYPT SUCCESS] File processed
+[2025-07-11 08:18:00] INFO - [REQUEST] Guest accessed POST /encrypt
+[2025-07-11 08:18:00] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1752193966,
+  "exp": 1752197566
+}
+[2025-07-11 08:18:00] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-11 08:18:00] WARN - [ENCRYPT FAILED] No file uploaded
+[2025-07-11 08:18:00] ERROR - [ENCRYPT ERROR] cfo_user – null value in column "filename" of relation "Logs" violates not-null constraint
+[2025-07-11 08:19:34] INFO - [REQUEST] Guest accessed POST /encrypt
+[2025-07-11 08:19:34] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1752193966,
+  "exp": 1752197566
+}
+[2025-07-11 08:19:34] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-11 08:19:35] INFO - [ENCRYPT SUCCESS] File processed
+[2025-07-11 08:23:53] INFO - [REQUEST] Guest accessed POST /encrypt
+[2025-07-11 08:23:53] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1752193966,
+  "exp": 1752197566
+}
+[2025-07-11 08:23:53] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-11 08:23:54] INFO - [UPLOAD] cfo_user (CFO) uploaded: chips.jpg
+[2025-07-11 08:23:54] INFO - [HASH] SHA-256 for chips.jpg: 336727b6df6dd37d2cfac5e7fa3045e724144cbd9c13b6351b0ec158a26241e5
+[2025-07-11 08:23:54] INFO - [ENCRYPT] cfo_user encrypted: chips.jpg
+[2025-07-11 08:23:54] INFO - [SAVE ENCRYPTED] Saved encrypted file: chips.jpg
+[2025-07-11 08:23:54] INFO - [RSA] AES key encrypted for file: chips.jpg
+[2025-07-11 08:23:54] INFO - [PERFORMANCE] cfo_user - Time: 189.23ms | Memory: 0.63MB | CPU: 5.77%
+[2025-07-11 08:25:42] INFO - [REQUEST] Guest accessed POST /encrypt
+[2025-07-11 08:25:42] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1752193966,
+  "exp": 1752197566
+}
+[2025-07-11 08:25:42] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-11 08:25:42] INFO - [UPLOAD] cfo_user (CFO) uploaded: chips.jpg
+[2025-07-11 08:25:42] INFO - [HASH] SHA-256 for chips.jpg: 336727b6df6dd37d2cfac5e7fa3045e724144cbd9c13b6351b0ec158a26241e5
+[2025-07-11 08:25:42] INFO - [ENCRYPT] cfo_user encrypted: chips.jpg
+[2025-07-11 08:25:42] INFO - [SAVE ENCRYPTED] Saved encrypted file: chips.jpg.enc
+[2025-07-11 08:25:42] INFO - [RSA] AES key encrypted for file: chips.jpg.enc
+[2025-07-11 08:25:42] INFO - [PERFORMANCE] cfo_user - Time: 161.46ms | Memory: 1.44MB | CPU: 35.00%
+[2025-07-11 08:31:06] INFO - [REQUEST] Guest accessed GET /get-key
+[2025-07-11 08:31:06] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1752193966,
+  "exp": 1752197566
+}
+[2025-07-11 08:31:06] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-11 08:31:06] ERROR - [GET-ALL] Error: null value in column "filename" of relation "Logs" violates not-null constraint
+[2025-07-11 08:31:59] INFO - [REQUEST] Guest accessed GET /get-key
+[2025-07-11 08:31:59] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1752193966,
+  "exp": 1752197566
+}
+[2025-07-11 08:31:59] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-11 08:31:59] ERROR - [GET-ALL] Error: null value in column "filename" of relation "Logs" violates not-null constraint
+[2025-07-11 08:34:16] INFO - [REQUEST] Guest accessed GET /get-key
+[2025-07-11 08:34:16] WARN - Forbidden: Invalid token. Error: jwt expired
+[2025-07-11 08:34:27] INFO - [REQUEST] Guest accessed POST /auth/login
+[2025-07-11 08:34:28] INFO - [LOGIN SUCCESS] cfo_user berhasil login
+[2025-07-11 08:34:44] INFO - [REQUEST] Guest accessed GET /get-key
+[2025-07-11 08:34:44] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1752197668,
+  "exp": 1752201268
+}
+[2025-07-11 08:34:44] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-11 08:34:45] ERROR - [GET-ALL] Error: null value in column "filename" of relation "Logs" violates not-null constraint
+[2025-07-11 08:36:03] INFO - [REQUEST] Guest accessed GET /get-key
+[2025-07-11 08:36:03] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1752197668,
+  "exp": 1752201268
+}
+[2025-07-11 08:36:03] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-11 08:36:03] INFO - [GET-ALL] Retrieved 12 records
+[2025-07-11 08:37:05] INFO - [REQUEST] Guest accessed GET /get-key/1
+[2025-07-11 08:37:05] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1752197668,
+  "exp": 1752201268
+}
+[2025-07-11 08:37:05] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-11 08:37:05] INFO - [GET-BY-ID] Retrieved record: ID 1
+[2025-07-11 08:44:24] INFO - [REQUEST] Guest accessed POST /send-key
+[2025-07-11 08:44:24] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1752197668,
+  "exp": 1752201268
+}
+[2025-07-11 08:44:24] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-11 08:44:24] ERROR - [SAVE-DATA] Error: notNull Violation: EncryptedFile.originalHash cannot be null,
+notNull Violation: EncryptedFile.createdBy cannot be null
+[2025-07-11 08:48:31] INFO - [REQUEST] Guest accessed POST /send-key
+[2025-07-11 08:48:31] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1752197668,
+  "exp": 1752201268
+}
+[2025-07-11 08:48:31] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-11 08:48:31] ERROR - [SAVE-DATA] Error: notNull Violation: EncryptedFile.originalHash cannot be null,
+notNull Violation: EncryptedFile.createdBy cannot be null
+[2025-07-11 08:50:02] INFO - [REQUEST] Guest accessed POST /send-key
+[2025-07-11 08:50:02] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1752197668,
+  "exp": 1752201268
+}
+[2025-07-11 08:50:02] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-11 08:50:02] INFO - [SAVE-DATA] Encrypted data saved: chips.jpg.enc
+[2025-07-11 08:50:41] INFO - [REQUEST] Guest accessed POST /send-key
+[2025-07-11 08:50:41] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1752197668,
+  "exp": 1752201268
+}
+[2025-07-11 08:50:41] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-11 08:50:41] INFO - [SAVE-DATA] Encrypted data saved: chips.jpg.enc
+[2025-07-11 09:13:18] INFO - [REQUEST] Guest accessed POST /decrypt
+[2025-07-11 09:13:18] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1752197668,
+  "exp": 1752201268
+}
+[2025-07-11 09:13:18] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-11 09:13:18] INFO - [DECRYPT SUCCESS] cfo_user → chips.jpg.enc
+[2025-07-11 09:26:35] INFO - [REQUEST] Guest accessed POST /decrypt
+[2025-07-11 09:26:35] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1752197668,
+  "exp": 1752201268
+}
+[2025-07-11 09:26:35] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-11 09:30:27] INFO - [REQUEST] Guest accessed POST /decrypt
+[2025-07-11 09:30:27] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1752197668,
+  "exp": 1752201268
+}
+[2025-07-11 09:30:27] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-11 09:30:27] INFO - [INTEGRITY CHECK] File chips.jpg.enc lolos verifikasi SHA-256 oleh cfo_user
+[2025-07-11 09:30:27] INFO - [DECRYPT SUCCESS] cfo_user berhasil mendekripsi file: chips.jpg.enc dalam 159.15 ms
+[2025-07-11 09:31:41] INFO - [REQUEST] Guest accessed POST /decrypt
+[2025-07-11 09:31:41] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1752197668,
+  "exp": 1752201268
+}
+[2025-07-11 09:31:41] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-11 09:33:45] INFO - [REQUEST] Guest accessed POST /decrypt
+[2025-07-11 09:33:45] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1752197668,
+  "exp": 1752201268
+}
+[2025-07-11 09:33:45] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-11 09:33:46] INFO - [INTEGRITY CHECK] File chips.jpg.enc lolos verifikasi SHA-256 oleh cfo_user
+[2025-07-11 09:33:46] INFO - [DECRYPT SUCCESS] cfo_user berhasil mendekripsi file: chips.jpg.enc dalam 174.44 ms
+[2025-07-11 09:38:09] INFO - [REQUEST] Guest accessed POST /decrypt
+[2025-07-11 09:38:09] WARN - Forbidden: Invalid token. Error: jwt expired
+[2025-07-11 09:38:15] INFO - [REQUEST] Guest accessed POST /auth/login
+[2025-07-11 09:38:15] INFO - [LOGIN SUCCESS] cfo_user berhasil login
+[2025-07-11 09:38:33] INFO - [REQUEST] Guest accessed POST /decrypt
+[2025-07-11 09:38:33] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1752201495,
+  "exp": 1752205095
+}
+[2025-07-11 09:38:33] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-11 09:38:33] INFO - [INTEGRITY CHECK] File chips.jpg.enc lolos verifikasi SHA-256 oleh cfo_user
+[2025-07-11 09:38:33] INFO - [DECRYPT SUCCESS] cfo_user berhasil mendekripsi file: chips.jpg.enc dalam 111.00 ms
+[2025-07-11 09:41:37] INFO - [REQUEST] Guest accessed POST /decrypt
+[2025-07-11 09:41:37] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1752201495,
+  "exp": 1752205095
+}
+[2025-07-11 09:41:37] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-11 09:41:37] INFO - [INTEGRITY CHECK] File chips.jpg.enc lolos verifikasi SHA-256 oleh cfo_user
+[2025-07-11 09:41:37] INFO - [DECRYPT SUCCESS] cfo_user berhasil mendekripsi file: chips.jpg.enc dalam 159.02 ms
+[2025-07-11 09:44:47] INFO - [REQUEST] Guest accessed POST /decrypt-by-id
+[2025-07-11 09:44:47] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1752201495,
+  "exp": 1752205095
+}
+[2025-07-11 09:44:47] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-11 09:44:47] ERROR - [DECRYPT BY ID ERROR] cfo_user: error:1C800064:Provider routines::bad decrypt
+[2025-07-11 09:45:07] INFO - [REQUEST] Guest accessed POST /decrypt-by-id/1
+[2025-07-11 09:47:12] INFO - [REQUEST] Guest accessed POST /decrypt-by-id
+[2025-07-11 09:47:12] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1752201495,
+  "exp": 1752205095
+}
+[2025-07-11 09:47:12] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-11 09:47:12] ERROR - [DECRYPT BY ID ERROR] cfo_user: error:1C800064:Provider routines::bad decrypt
+[2025-07-11 10:00:50] INFO - [REQUEST] Guest accessed POST /decrypt
+[2025-07-11 10:00:50] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1752201495,
+  "exp": 1752205095
+}
+[2025-07-11 10:00:50] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-11 10:00:50] INFO - [INTEGRITY CHECK] File chips.jpg.enc lolos verifikasi SHA-256 oleh cfo_user
+[2025-07-11 10:00:50] INFO - [DECRYPT SUCCESS] cfo_user berhasil mendekripsi file: chips.jpg.enc dalam 212.67 ms
+[2025-07-11 10:01:14] INFO - [REQUEST] Guest accessed GET /get-key
+[2025-07-11 10:01:14] WARN - Forbidden: Invalid token. Error: jwt expired
+[2025-07-11 10:01:23] INFO - [REQUEST] Guest accessed POST /auth/login
+[2025-07-11 10:01:23] INFO - [LOGIN SUCCESS] cfo_user berhasil login
+[2025-07-11 10:01:44] INFO - [REQUEST] Guest accessed POST /decrypt-by-id
+[2025-07-11 10:01:44] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1752202883,
+  "exp": 1752206483
+}
+[2025-07-11 10:01:44] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-11 10:01:44] INFO - [[33mDECRYPT BY ID REQUEST[0m] cfo_user mencoba mendekripsi file ID: 1
+[2025-07-11 10:01:44] ERROR - [DECRYPT FAILED] File gagal didekripsi oleh cfo_user untuk ID 1: error:1C800064:Provider routines::bad decrypt
+[2025-07-11 10:04:46] INFO - [REQUEST] Guest accessed POST /encrypt
+[2025-07-11 10:04:46] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1752202883,
+  "exp": 1752206483
+}
+[2025-07-11 10:04:46] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-11 10:04:46] INFO - [UPLOAD] cfo_user (CFO) uploaded: chips.jpg
+[2025-07-11 10:04:46] INFO - [HASH] SHA-256 for chips.jpg: 336727b6df6dd37d2cfac5e7fa3045e724144cbd9c13b6351b0ec158a26241e5
+[2025-07-11 10:04:46] INFO - [ENCRYPT] cfo_user encrypted: chips.jpg
+[2025-07-11 10:04:46] INFO - [SAVE ENCRYPTED] Saved encrypted file: chips.jpg.enc
+[2025-07-11 10:04:46] INFO - [RSA] AES key encrypted for file: chips.jpg.enc
+[2025-07-11 10:04:46] INFO - [PERFORMANCE] cfo_user - Time: 93.71ms | Memory: -0.11MB | CPU: 0.37%
+[2025-07-11 10:05:55] INFO - [REQUEST] Guest accessed POST /decrypt-by-id
+[2025-07-11 10:05:55] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1752202883,
+  "exp": 1752206483
+}
+[2025-07-11 10:05:55] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-11 10:05:55] INFO - [[33mDECRYPT BY ID REQUEST[0m] cfo_user mencoba mendekripsi file ID: 15
+[2025-07-11 10:05:55] WARN - [INTEGRITY CHECK FAILED] File ID 15 gagal verifikasi SHA-256 oleh cfo_user
+[2025-07-11 10:05:55] INFO - [DECRYPT SUCCESS] cfo_user berhasil mendekripsi file ID 15 dalam 50.73 ms
+[2025-07-11 10:06:18] INFO - [REQUEST] Guest accessed POST /decrypt-by-id
+[2025-07-11 10:06:18] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1752202883,
+  "exp": 1752206483
+}
+[2025-07-11 10:06:18] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-11 10:06:18] INFO - [[33mDECRYPT BY ID REQUEST[0m] cfo_user mencoba mendekripsi file ID: 14
+[2025-07-11 10:06:18] ERROR - [DECRYPT FAILED] File gagal didekripsi oleh cfo_user untuk ID 14: error:1C800064:Provider routines::bad decrypt
+[2025-07-11 10:06:26] INFO - [REQUEST] Guest accessed POST /decrypt-by-id
+[2025-07-11 10:06:26] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1752202883,
+  "exp": 1752206483
+}
+[2025-07-11 10:06:26] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-11 10:06:26] INFO - [[33mDECRYPT BY ID REQUEST[0m] cfo_user mencoba mendekripsi file ID: 15
+[2025-07-11 10:06:26] WARN - [INTEGRITY CHECK FAILED] File ID 15 gagal verifikasi SHA-256 oleh cfo_user
+[2025-07-11 10:06:26] INFO - [DECRYPT SUCCESS] cfo_user berhasil mendekripsi file ID 15 dalam 24.52 ms
+[2025-07-11 10:06:50] INFO - [REQUEST] Guest accessed POST /encrypt
+[2025-07-11 10:06:50] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1752202883,
+  "exp": 1752206483
+}
+[2025-07-11 10:06:50] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-11 10:06:50] INFO - [UPLOAD] cfo_user (CFO) uploaded: chips.jpg
+[2025-07-11 10:06:50] INFO - [HASH] SHA-256 for chips.jpg: 336727b6df6dd37d2cfac5e7fa3045e724144cbd9c13b6351b0ec158a26241e5
+[2025-07-11 10:06:50] INFO - [ENCRYPT] cfo_user encrypted: chips.jpg
+[2025-07-11 10:06:50] INFO - [SAVE ENCRYPTED] Saved encrypted file: chips.jpg.enc
+[2025-07-11 10:06:50] INFO - [RSA] AES key encrypted for file: chips.jpg.enc
+[2025-07-11 10:06:50] INFO - [PERFORMANCE] cfo_user - Time: 113.24ms | Memory: 0.43MB | CPU: 0.17%
+[2025-07-11 10:07:02] INFO - [REQUEST] Guest accessed POST /decrypt-by-id
+[2025-07-11 10:07:02] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1752202883,
+  "exp": 1752206483
+}
+[2025-07-11 10:07:02] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-11 10:07:02] INFO - [[33mDECRYPT BY ID REQUEST[0m] cfo_user mencoba mendekripsi file ID: 16
+[2025-07-11 10:07:02] WARN - [INTEGRITY CHECK FAILED] File ID 16 gagal verifikasi SHA-256 oleh cfo_user
+[2025-07-11 10:07:02] INFO - [DECRYPT SUCCESS] cfo_user berhasil mendekripsi file ID 16 dalam 55.72 ms
+[2025-07-11 10:10:53] INFO - [REQUEST] Guest accessed POST /decrypt-by-id
+[2025-07-11 10:10:53] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1752202883,
+  "exp": 1752206483
+}
+[2025-07-11 10:10:53] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-11 10:10:53] INFO - [[33mDECRYPT BY ID REQUEST[0m] cfo_user mencoba mendekripsi file ID: 16
+[2025-07-11 10:10:53] ERROR - [DECRYPT FAILED] Unexpected error oleh cfo_user: storedHash is not defined
+[2025-07-11 10:11:13] INFO - [REQUEST] Guest accessed POST /decrypt-by-id
+[2025-07-11 10:11:13] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1752202883,
+  "exp": 1752206483
+}
+[2025-07-11 10:11:13] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-11 10:11:13] INFO - [[33mDECRYPT BY ID REQUEST[0m] cfo_user mencoba mendekripsi file ID: 16
+[2025-07-11 10:11:13] WARN - [INTEGRITY CHECK FAILED] File ID 16 gagal verifikasi SHA-256 oleh cfo_user
+[2025-07-11 10:11:13] INFO - [DECRYPT SUCCESS] cfo_user berhasil mendekripsi file ID 16 dalam 124.73 ms
+[2025-07-11 10:12:07] INFO - [REQUEST] Guest accessed POST /decrypt-by-id
+[2025-07-11 10:12:08] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1752202883,
+  "exp": 1752206483
+}
+[2025-07-11 10:12:08] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-11 10:12:08] INFO - [[33mDECRYPT BY ID REQUEST[0m] cfo_user mencoba mendekripsi file ID: 16
+[2025-07-11 10:12:08] ERROR - [DECRYPT FAILED] Unexpected error oleh cfo_user: originalHash is not defined
+[2025-07-11 10:12:39] INFO - [REQUEST] Guest accessed POST /decrypt-by-id
+[2025-07-11 10:12:39] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1752202883,
+  "exp": 1752206483
+}
+[2025-07-11 10:12:39] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-11 10:12:39] INFO - [[33mDECRYPT BY ID REQUEST[0m] cfo_user mencoba mendekripsi file ID: 16
+[2025-07-11 10:12:39] ERROR - [DECRYPT FAILED] Unexpected error oleh cfo_user: decryptedHash is not defined
+[2025-07-11 10:15:03] INFO - [REQUEST] Guest accessed POST /decrypt-by-id
+[2025-07-11 10:15:03] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1752202883,
+  "exp": 1752206483
+}
+[2025-07-11 10:15:03] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-11 10:15:03] INFO - [[33mDECRYPT BY ID REQUEST[0m] cfo_user mencoba mendekripsi file ID: 16
+[2025-07-11 10:15:03] INFO - [INTEGRITY CHECK] File ID 16 lolos verifikasi SHA-256 oleh cfo_user
+[2025-07-11 10:15:03] INFO - [DECRYPT SUCCESS] cfo_user berhasil mendekripsi file ID 16 dalam 111.07 ms
+[2025-07-11 10:16:50] INFO - [REQUEST] Guest accessed POST /decrypt-by-id
+[2025-07-11 10:16:50] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1752202883,
+  "exp": 1752206483
+}
+[2025-07-11 10:16:50] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-11 10:16:50] INFO - [[33mDECRYPT BY ID REQUEST[0m] cfo_user mencoba mendekripsi file ID: 16
+[2025-07-11 10:16:50] INFO - [INTEGRITY CHECK] File ID 16 lolos verifikasi SHA-256 oleh cfo_user
+[2025-07-11 10:16:50] INFO - [DECRYPT SUCCESS] cfo_user berhasil mendekripsi file ID 16 dalam 131.43 ms
+[2025-07-11 10:20:43] INFO - [REQUEST] Guest accessed POST /decrypt-by-id
+[2025-07-11 10:20:43] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1752202883,
+  "exp": 1752206483
+}
+[2025-07-11 10:20:43] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-11 10:20:43] INFO - [[33mDECRYPT BY ID REQUEST[0m] cfo_user mencoba mendekripsi file ID: 16
+[2025-07-11 10:20:43] INFO - [INTEGRITY CHECK] File ID 16 lolos verifikasi SHA-256 oleh cfo_user
+[2025-07-11 10:20:43] INFO - [DECRYPT SUCCESS] cfo_user berhasil mendekripsi file ID 16 dalam 99.13 ms
+[2025-07-11 10:21:44] INFO - [REQUEST] Guest accessed POST /decrypt-by-id
+[2025-07-11 10:21:44] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1752202883,
+  "exp": 1752206483
+}
+[2025-07-11 10:21:44] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-11 10:21:44] INFO - [[33mDECRYPT BY ID REQUEST[0m] cfo_user mencoba mendekripsi file ID: 16
+[2025-07-11 10:21:44] INFO - [INTEGRITY CHECK] File ID 16 lolos verifikasi SHA-256 oleh cfo_user
+[2025-07-11 10:21:44] INFO - [DECRYPT SUCCESS] cfo_user berhasil mendekripsi file ID 16 dalam 134.31 ms
+[2025-07-11 10:23:21] INFO - [REQUEST] Guest accessed POST /encrypt
+[2025-07-11 10:23:21] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1752202883,
+  "exp": 1752206483
+}
+[2025-07-11 10:23:21] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-11 10:23:21] INFO - [UPLOAD] cfo_user (CFO) uploaded: chips.jpg
+[2025-07-11 10:23:21] INFO - [HASH] SHA-256 for chips.jpg: 336727b6df6dd37d2cfac5e7fa3045e724144cbd9c13b6351b0ec158a26241e5
+[2025-07-11 10:23:21] INFO - [ENCRYPT] cfo_user encrypted: chips.jpg
+[2025-07-11 10:23:21] INFO - [SAVE ENCRYPTED] Saved encrypted file: chips.jpg.enc
+[2025-07-11 10:23:21] INFO - [RSA] AES key encrypted for file: chips.jpg.enc
+[2025-07-11 10:23:21] INFO - [PERFORMANCE] cfo_user - Time: 204.48ms | Memory: 1.44MB | CPU: 39.00%
+[2025-07-11 10:23:32] INFO - [REQUEST] Guest accessed POST /decrypt
+[2025-07-11 10:23:32] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1752201495,
+  "exp": 1752205095
+}
+[2025-07-11 10:23:32] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-11 10:23:32] ERROR - [DECRYPT FAILED] Unexpected error oleh cfo_user: error:1C800064:Provider routines::bad decrypt
+[2025-07-11 10:23:44] INFO - [REQUEST] Guest accessed POST /decrypt
+[2025-07-11 10:23:44] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1752201495,
+  "exp": 1752205095
+}
+[2025-07-11 10:23:44] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-11 10:23:45] ERROR - [DECRYPT FAILED] Unexpected error oleh cfo_user: error:1C800064:Provider routines::bad decrypt
+[2025-07-11 10:24:03] INFO - [REQUEST] Guest accessed POST /decrypt-by-id
+[2025-07-11 10:24:03] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1752202883,
+  "exp": 1752206483
+}
+[2025-07-11 10:24:03] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-11 10:24:03] INFO - [[33mDECRYPT BY ID REQUEST[0m] cfo_user mencoba mendekripsi file ID: 16
+[2025-07-11 10:24:03] ERROR - [DECRYPT FAILED] File gagal didekripsi oleh cfo_user untuk ID 16: error:1C800064:Provider routines::bad decrypt
+[2025-07-11 10:24:30] INFO - [REQUEST] Guest accessed POST /decrypt
+[2025-07-11 10:24:30] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1752201495,
+  "exp": 1752205095
+}
+[2025-07-11 10:24:30] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-11 10:24:30] INFO - [INTEGRITY CHECK] File chips.jpg.enc lolos verifikasi SHA-256 oleh cfo_user
+[2025-07-11 10:24:30] INFO - [DECRYPT SUCCESS] cfo_user berhasil mendekripsi file: chips.jpg.enc dalam 108.38 ms
+[2025-07-11 10:24:56] INFO - [REQUEST] Guest accessed POST /decrypt-by-id
+[2025-07-11 10:24:56] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1752202883,
+  "exp": 1752206483
+}
+[2025-07-11 10:24:56] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-11 10:24:56] INFO - [[33mDECRYPT BY ID REQUEST[0m] cfo_user mencoba mendekripsi file ID: 16
+[2025-07-11 10:24:56] ERROR - [DECRYPT FAILED] File gagal didekripsi oleh cfo_user untuk ID 16: error:1C800064:Provider routines::bad decrypt
+[2025-07-11 10:25:02] INFO - [REQUEST] Guest accessed POST /decrypt-by-id
+[2025-07-11 10:25:02] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1752202883,
+  "exp": 1752206483
+}
+[2025-07-11 10:25:02] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-11 10:25:02] INFO - [[33mDECRYPT BY ID REQUEST[0m] cfo_user mencoba mendekripsi file ID: 17
+[2025-07-11 10:25:02] INFO - [INTEGRITY CHECK] File ID 17 lolos verifikasi SHA-256 oleh cfo_user
+[2025-07-11 10:25:02] INFO - [DECRYPT SUCCESS] cfo_user berhasil mendekripsi file ID 17 dalam 11.81 ms
+[2025-07-11 10:25:11] INFO - [REQUEST] Guest accessed POST /decrypt-by-id
+[2025-07-11 10:25:11] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1752202883,
+  "exp": 1752206483
+}
+[2025-07-11 10:25:11] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-11 10:25:11] INFO - [[33mDECRYPT BY ID REQUEST[0m] cfo_user mencoba mendekripsi file ID: 1
+[2025-07-11 10:25:11] ERROR - [DECRYPT FAILED] File gagal didekripsi oleh cfo_user untuk ID 1: error:1C800064:Provider routines::bad decrypt
+[2025-07-11 10:25:17] INFO - [REQUEST] Guest accessed POST /decrypt-by-id
+[2025-07-11 10:25:17] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1752202883,
+  "exp": 1752206483
+}
+[2025-07-11 10:25:17] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-11 10:25:17] INFO - [[33mDECRYPT BY ID REQUEST[0m] cfo_user mencoba mendekripsi file ID: 17
+[2025-07-11 10:25:17] INFO - [INTEGRITY CHECK] File ID 17 lolos verifikasi SHA-256 oleh cfo_user
+[2025-07-11 10:25:17] INFO - [DECRYPT SUCCESS] cfo_user berhasil mendekripsi file ID 17 dalam 14.95 ms
+[2025-07-11 10:34:08] INFO - [REQUEST] Guest accessed POST /decrypt-by-id
+[2025-07-11 10:34:08] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1752202883,
+  "exp": 1752206483
+}
+[2025-07-11 10:34:08] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-11 10:34:08] INFO - [[33mDECRYPT BY ID REQUEST[0m] cfo_user mencoba mendekripsi file ID: 15
+[2025-07-11 10:34:08] ERROR - [DECRYPT FAILED] File gagal didekripsi oleh cfo_user untuk ID 15: error:1C800064:Provider routines::bad decrypt
+[2025-07-11 10:36:27] INFO - [REQUEST] Guest accessed POST /decrypt-by-id
+[2025-07-11 10:36:27] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1752202883,
+  "exp": 1752206483
+}
+[2025-07-11 10:36:27] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-11 10:36:27] INFO - [[33mDECRYPT BY ID REQUEST[0m] cfo_user mencoba mendekripsi file ID: 15
+[2025-07-11 10:36:27] ERROR - [DECRYPT FAILED] File gagal didekripsi oleh cfo_user untuk ID 15: error:1C800064:Provider routines::bad decrypt
+[2025-07-11 10:37:55] INFO - [REQUEST] Guest accessed POST /decrypt-by-id
+[2025-07-11 10:37:55] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1752202883,
+  "exp": 1752206483
+}
+[2025-07-11 10:37:55] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-11 10:37:55] INFO - [[33mDECRYPT BY ID REQUEST[0m] cfo_user mencoba mendekripsi file ID: 15
+[2025-07-11 10:37:55] ERROR - [DECRYPT FAILED] File gagal didekripsi oleh cfo_user untuk ID 15: error:1C800064:Provider routines::bad decrypt
+[2025-07-11 10:37:59] INFO - [REQUEST] Guest accessed POST /decrypt-by-id
+[2025-07-11 10:37:59] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1752202883,
+  "exp": 1752206483
+}
+[2025-07-11 10:37:59] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-11 10:37:59] INFO - [[33mDECRYPT BY ID REQUEST[0m] cfo_user mencoba mendekripsi file ID: 17
+[2025-07-11 10:37:59] INFO - [INTEGRITY CHECK] File ID 17 lolos verifikasi SHA-256 oleh cfo_user
+[2025-07-11 10:37:59] INFO - [DECRYPT SUCCESS] cfo_user berhasil mendekripsi file ID 17 dalam 23.38 ms
+[2025-07-11 10:39:05] INFO - [REQUEST] Guest accessed GET /get-key
+[2025-07-11 10:39:05] WARN - Forbidden: Invalid token. Error: jwt expired
+[2025-07-11 10:39:14] INFO - [REQUEST] Guest accessed POST /auth/login
+[2025-07-11 10:39:14] INFO - [LOGIN SUCCESS] cfo_user berhasil login
+[2025-07-11 10:39:29] INFO - [REQUEST] Guest accessed GET /get-key
+[2025-07-11 10:39:29] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1752205154,
+  "exp": 1752208754
+}
+[2025-07-11 10:39:29] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-11 10:39:29] INFO - [GET-ALL] Retrieved 17 records
+[2025-07-11 10:40:02] INFO - [REQUEST] Guest accessed GET /get-key-by-id
+[2025-07-11 10:40:17] INFO - [REQUEST] Guest accessed GET /get-key-id
+[2025-07-11 10:40:23] INFO - [REQUEST] Guest accessed GET /get-key
+[2025-07-11 10:40:23] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1752205154,
+  "exp": 1752208754
+}
+[2025-07-11 10:40:23] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-11 10:40:23] INFO - [GET-ALL] Retrieved 17 records
+[2025-07-11 10:41:02] INFO - [REQUEST] Guest accessed GET /get-key/1
+[2025-07-11 10:41:02] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1752205154,
+  "exp": 1752208754
+}
+[2025-07-11 10:41:02] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-11 10:41:02] INFO - [GET-BY-ID] Retrieved record: ID 1
+[2025-07-11 10:41:22] INFO - [REQUEST] Guest accessed GET /get-key/15
+[2025-07-11 10:41:22] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1752205154,
+  "exp": 1752208754
+}
+[2025-07-11 10:41:22] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-11 10:41:22] INFO - [GET-BY-ID] Retrieved record: ID 15
+[2025-07-11 10:44:07] INFO - [REQUEST] Guest accessed GET /get-key
+[2025-07-11 10:44:07] WARN - Forbidden: Invalid token. Error: jwt expired
+[2025-07-11 10:44:15] INFO - [REQUEST] Guest accessed GET /get-key
+[2025-07-11 10:44:15] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1752205154,
+  "exp": 1752208754
+}
+[2025-07-11 10:44:15] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-11 10:44:15] INFO - [GET-ALL] Retrieved 17 records
+[2025-07-11 10:45:22] INFO - [REQUEST] Guest accessed POST /decrypt-by-id
+[2025-07-11 10:45:22] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1752202883,
+  "exp": 1752206483
+}
+[2025-07-11 10:45:22] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-11 10:45:22] INFO - [[33mDECRYPT BY ID REQUEST[0m] cfo_user mencoba mendekripsi file ID: 15
+[2025-07-11 10:45:22] ERROR - [DECRYPT FAILED] File gagal didekripsi oleh cfo_user untuk ID 15: error:1C800064:Provider routines::bad decrypt
+[2025-07-11 10:49:22] ERROR - [DECRYPT FAILED] chips.jpg.enc gagal didekripsi: error:1C800064:Provider routines::bad decrypt
+[2025-07-11 10:49:22] ERROR - [DECRYPT FAILED] chips.jpg.enc gagal didekripsi: error:1C800064:Provider routines::bad decrypt
+[2025-07-11 10:49:22] ERROR - [DECRYPT FAILED] chips.jpg.enc gagal didekripsi: error:1C800064:Provider routines::bad decrypt
+[2025-07-11 10:49:22] ERROR - [DECRYPT FAILED] chips.jpg.enc gagal didekripsi: error:1C800064:Provider routines::bad decrypt
+[2025-07-11 10:49:22] ERROR - [DECRYPT FAILED] chips.jpg.enc gagal didekripsi: error:1C800064:Provider routines::bad decrypt
+[2025-07-11 10:49:22] ERROR - [DECRYPT FAILED] chips.jpg.enc gagal didekripsi: error:1C800064:Provider routines::bad decrypt
+[2025-07-11 10:49:22] ERROR - [DECRYPT FAILED] chips.jpg.enc gagal didekripsi: error:1C800064:Provider routines::bad decrypt
+[2025-07-11 10:49:22] ERROR - [DECRYPT FAILED] chips.jpg.enc gagal didekripsi: error:1C800064:Provider routines::bad decrypt
+[2025-07-11 10:49:22] ERROR - [DECRYPT FAILED] chips.jpg.enc gagal didekripsi: error:1C800064:Provider routines::bad decrypt
+[2025-07-11 10:49:22] ERROR - [DECRYPT FAILED] chips.jpg.enc gagal didekripsi: error:1C800064:Provider routines::bad decrypt
+[2025-07-11 10:49:22] ERROR - [DECRYPT FAILED] chips.jpg gagal didekripsi: error:1C80006B:Provider routines::wrong final block length
+[2025-07-11 10:49:22] ERROR - [DECRYPT FAILED] chips.jpg.enc gagal didekripsi: error:1C800064:Provider routines::bad decrypt
+[2025-07-11 10:49:22] ERROR - [DECRYPT FAILED] chips.jpg.enc gagal didekripsi: error:1C800064:Provider routines::bad decrypt
+[2025-07-11 10:49:22] ERROR - [DECRYPT FAILED] chips.jpg.enc gagal didekripsi: error:1C800064:Provider routines::bad decrypt
+[2025-07-11 10:49:22] ERROR - [DECRYPT FAILED] chips.jpg.enc gagal didekripsi: error:1C800064:Provider routines::bad decrypt
+[2025-07-11 10:49:22] ERROR - [DECRYPT FAILED] chips.jpg.enc gagal didekripsi: error:1C800064:Provider routines::bad decrypt
+[2025-07-11 10:49:22] INFO - [VALID] File chips.jpg.enc valid
+[2025-07-11 10:51:58] INFO - [REQUEST] Guest accessed POST /decrypt
+[2025-07-11 10:51:58] WARN - Forbidden: Invalid token. Error: jwt expired
+[2025-07-11 10:52:04] INFO - [REQUEST] Guest accessed POST /auth/login
+[2025-07-11 10:52:04] INFO - [LOGIN SUCCESS] cfo_user berhasil login
+[2025-07-11 10:52:24] INFO - [REQUEST] Guest accessed POST /decrypt
+[2025-07-11 10:52:24] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1752205924,
+  "exp": 1752209524
+}
+[2025-07-11 10:52:24] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-11 10:52:24] ERROR - [DECRYPT FAILED] Unexpected error oleh cfo_user: error:1C800064:Provider routines::bad decrypt
+[2025-07-11 10:53:33] INFO - [REQUEST] Guest accessed POST /decrypt
+[2025-07-11 10:53:33] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1752205924,
+  "exp": 1752209524
+}
+[2025-07-11 10:53:33] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-11 10:53:34] INFO - [INTEGRITY CHECK] File chips.jpg.enc lolos verifikasi SHA-256 oleh cfo_user
+[2025-07-11 10:53:34] INFO - [DECRYPT SUCCESS] cfo_user berhasil mendekripsi file: chips.jpg.enc dalam 90.94 ms
+[2025-07-11 11:02:46] INFO - [VALID] ID 1 - chips.jpg.enc: RSA key can be decrypted
+[2025-07-11 11:02:46] INFO - [VALID] ID 2 - chips.jpg.enc: RSA key can be decrypted
+[2025-07-11 11:02:46] INFO - [VALID] ID 3 - chips.jpg.enc: RSA key can be decrypted
+[2025-07-11 11:02:46] INFO - [VALID] ID 4 - chips.jpg.enc: RSA key can be decrypted
+[2025-07-11 11:02:46] INFO - [VALID] ID 5 - chips.jpg.enc: RSA key can be decrypted
+[2025-07-11 11:02:46] INFO - [VALID] ID 6 - chips.jpg.enc: RSA key can be decrypted
+[2025-07-11 11:02:46] INFO - [VALID] ID 7 - chips.jpg.enc: RSA key can be decrypted
+[2025-07-11 11:02:46] INFO - [VALID] ID 8 - chips.jpg.enc: RSA key can be decrypted
+[2025-07-11 11:02:46] INFO - [VALID] ID 9 - chips.jpg.enc: RSA key can be decrypted
+[2025-07-11 11:02:46] INFO - [VALID] ID 10 - chips.jpg.enc: RSA key can be decrypted
+[2025-07-11 11:02:46] INFO - [VALID] ID 11 - chips.jpg: RSA key can be decrypted
+[2025-07-11 11:02:46] INFO - [VALID] ID 12 - chips.jpg.enc: RSA key can be decrypted
+[2025-07-11 11:02:46] INFO - [VALID] ID 13 - chips.jpg.enc: RSA key can be decrypted
+[2025-07-11 11:02:46] INFO - [VALID] ID 14 - chips.jpg.enc: RSA key can be decrypted
+[2025-07-11 11:02:46] INFO - [VALID] ID 15 - chips.jpg.enc: RSA key can be decrypted
+[2025-07-11 11:02:46] INFO - [VALID] ID 16 - chips.jpg.enc: RSA key can be decrypted
+[2025-07-11 11:02:46] INFO - [VALID] ID 17 - chips.jpg.enc: RSA key can be decrypted
+[2025-07-11 11:02:46] INFO - 
+=== VALIDATION RESULT ===
+[2025-07-11 11:02:46] INFO - Total records: 17
+[2025-07-11 11:02:46] INFO - Valid: 17
+[2025-07-11 11:02:46] INFO - Invalid: 0
+[2025-07-11 11:02:46] INFO - ==========================
+
+[2025-07-11 11:10:53] INFO - [VALID] ID 1 – chips.jpg.enc: RSA key can be decrypted
+[2025-07-11 14:50:52] INFO - [REQUEST] Guest accessed GET /logs/json
+[2025-07-11 14:50:52] INFO - [REQUEST] Guest accessed GET /favicon.ico
+[2025-07-11 14:58:19] INFO - [REQUEST] Guest accessed GET /logs/json
+[2025-07-11 14:58:19] WARN - Unauthorized access: Malformed or missing token
+[2025-07-11 15:02:51] INFO - [REQUEST] Guest accessed POST /auth/login
+[2025-07-11 15:02:51] INFO - [LOGIN SUCCESS] cfo_user berhasil login
+[2025-07-11 15:03:18] INFO - [REQUEST] Guest accessed GET /logs/json
+[2025-07-11 15:03:18] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1752220971,
+  "exp": 1752224571
+}
+[2025-07-11 15:03:18] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-11 15:03:37] INFO - [REQUEST] Guest accessed GET /logs/json
+[2025-07-11 15:03:37] WARN - Unauthorized access: Malformed or missing token
+[2025-07-11 15:03:38] INFO - [REQUEST] Guest accessed GET /logs/json
+[2025-07-11 15:03:38] WARN - Unauthorized access: Malformed or missing token
+[2025-07-11 15:05:59] INFO - [REQUEST] Guest accessed GET /logs/json
+[2025-07-11 15:05:59] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1752220971,
+  "exp": 1752224571
+}
+[2025-07-11 15:05:59] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-11 15:07:59] INFO - [REQUEST] Guest accessed GET /logs/json
+[2025-07-11 15:07:59] WARN - Unauthorized access: Malformed or missing token
+[2025-07-11 15:11:30] INFO - [REQUEST] Guest accessed GET /logs/csv
+[2025-07-11 15:11:30] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1752220971,
+  "exp": 1752224571
+}
+[2025-07-11 15:11:30] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-11 15:16:21] INFO - [REQUEST] Guest accessed GET /logs/json
+[2025-07-11 15:16:21] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1752220971,
+  "exp": 1752224571
+}
+[2025-07-11 15:16:21] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-11 15:16:53] INFO - [REQUEST] Guest accessed GET /logs/csv
+[2025-07-11 15:16:53] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1752220971,
+  "exp": 1752224571
+}
+[2025-07-11 15:16:53] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-12 22:33:17] INFO - [REQUEST] Guest accessed POST /api/auth/login
+[2025-07-12 22:33:18] WARN - [LOGIN FAILED] Invalid credentials
+[2025-07-12 22:33:28] INFO - [REQUEST] Guest accessed POST /api/auth/login
+[2025-07-12 22:33:28] WARN - [LOGIN FAILED] Invalid credentials
+[2025-07-12 22:34:30] INFO - [REQUEST] Guest accessed POST /api/auth/login
+[2025-07-12 22:34:30] WARN - [LOGIN FAILED] Invalid credentials
+[2025-07-12 22:51:06] INFO - [REQUEST] Guest accessed POST /api/auth/login
+[2025-07-12 22:51:06] WARN - [LOGIN FAILED] Invalid credentials
+[2025-07-12 23:00:41] INFO - [REQUEST] Guest accessed POST /api/auth/login
+[2025-07-12 23:00:42] INFO - [LOGIN SUCCESS] cfo_user berhasil login
+[2025-07-17 07:54:35] INFO - [REQUEST] Guest accessed POST /api/auth/login
+[2025-07-17 07:54:35] INFO - [LOGIN SUCCESS] cfo_user berhasil login
+[2025-07-17 08:00:37] INFO - [REQUEST] Guest accessed POST /api/auth/login
+[2025-07-17 08:00:37] INFO - [LOGIN SUCCESS] cfo_user berhasil login
+[2025-07-17 08:04:09] INFO - [REQUEST] Guest accessed POST /api/auth/login
+[2025-07-17 08:04:10] INFO - [LOGIN SUCCESS] cfo_user berhasil login
+[2025-07-17 08:12:46] INFO - [REQUEST] Guest accessed POST /encrypt
+[2025-07-17 08:13:00] INFO - [REQUEST] Guest accessed POST /api/encrypt
+[2025-07-17 08:13:00] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1752714250,
+  "exp": 1752717850
+}
+[2025-07-17 08:13:00] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-17 08:13:00] INFO - [UPLOAD] cfo_user (CFO) uploaded: chips.jpg
+[2025-07-17 08:13:00] INFO - [HASH] SHA-256 for chips.jpg: 336727b6df6dd37d2cfac5e7fa3045e724144cbd9c13b6351b0ec158a26241e5
+[2025-07-17 08:13:00] INFO - [ENCRYPT] cfo_user encrypted: chips.jpg
+[2025-07-17 08:13:00] INFO - [SAVE ENCRYPTED] Saved encrypted file: chips.jpg.enc
+[2025-07-17 08:13:00] INFO - [RSA] AES key encrypted for file: chips.jpg.enc
+[2025-07-17 08:13:00] INFO - [PERFORMANCE] cfo_user - Time: 177.18ms | Memory: 0.64MB | CPU: 0.21%
+[2025-07-17 08:21:30] INFO - [REQUEST] Guest accessed POST /api/decrypt
+[2025-07-17 08:21:30] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1752714250,
+  "exp": 1752717850
+}
+[2025-07-17 08:21:30] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-17 08:21:30] INFO - [INTEGRITY CHECK] File chips.jpg.enc lolos verifikasi SHA-256 oleh cfo_user
+[2025-07-17 08:21:30] INFO - [DECRYPT SUCCESS] cfo_user berhasil mendekripsi file: chips.jpg.enc dalam 147.32 ms
+[2025-07-17 08:23:46] INFO - [REQUEST] Guest accessed GET /api/logs/json
+[2025-07-17 08:23:46] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO",
+  "iat": 1752714250,
+  "exp": 1752717850
+}
+[2025-07-17 08:23:46] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-17 17:17:24] INFO - [REQUEST] Guest accessed POST /api/auth/login
+[2025-07-17 17:17:24] WARN - [LOGIN FAILED] Invalid credentials
+[2025-07-18 11:29:18] INFO - [REQUEST] POST /api/auth/login
+[2025-07-18 11:29:18] WARN - [LOGIN FAILED] Invalid credentials
+[2025-07-18 11:32:47] INFO - [REQUEST] POST /api/auth/login
+[2025-07-18 11:32:47] WARN - [LOGIN FAILED] Invalid credentials
+[2025-07-18 11:33:10] INFO - [REQUEST] POST /api/auth/login
+[2025-07-18 11:33:10] WARN - [LOGIN FAILED] Invalid credentials
+[2025-07-18 11:33:45] INFO - [REQUEST] POST /api/auth/login
+[2025-07-18 11:33:45] WARN - [LOGIN FAILED] Invalid credentials
+[2025-07-18 11:34:20] INFO - [REQUEST] POST /api/auth/login
+[2025-07-18 11:34:20] INFO - [LOGIN SUCCESS] cfo_user berhasil login
+[2025-07-18 11:34:53] INFO - [REQUEST] POST /api/auth/login
+[2025-07-18 11:34:53] INFO - [LOGIN SUCCESS] cfo_user berhasil login
+[2025-07-18 11:39:59] INFO - [REQUEST] POST /api/auth/login
+[2025-07-18 11:39:59] INFO - [LOGIN SUCCESS] cfo_user berhasil login
+[2025-07-18 11:41:57] INFO - [REQUEST] POST /api/encrypt
+[2025-07-18 11:41:57] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO"
+}
+[2025-07-18 11:41:57] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-18 11:41:57] INFO - [UPLOAD] cfo_user uploaded: chips.jpg
+[2025-07-18 11:41:57] INFO - [HASH] SHA-256 for chips.jpg: 336727b6df6dd37d2cfac5e7fa3045e724144cbd9c13b6351b0ec158a26241e5
+[2025-07-18 11:41:57] INFO - [ENCRYPT] cfo_user encrypted: chips.jpg
+[2025-07-18 11:41:57] INFO - [SAVE ENCRYPTED] Saved encrypted file: chips.jpg.enc
+[2025-07-18 11:41:57] INFO - [RSA] AES key encrypted for file: chips.jpg.enc
+[2025-07-18 11:41:58] ERROR - [ENCRYPT ERROR] cfo_user - column "userId" of relation "EncryptedFiles" does not exist
+[2025-07-18 11:43:39] INFO - [REQUEST] POST /api/encrypt
+[2025-07-18 11:43:39] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO"
+}
+[2025-07-18 11:43:39] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-18 11:43:39] INFO - [UPLOAD] cfo_user uploaded: chips.jpg
+[2025-07-18 11:43:39] INFO - [HASH] SHA-256 for chips.jpg: 336727b6df6dd37d2cfac5e7fa3045e724144cbd9c13b6351b0ec158a26241e5
+[2025-07-18 11:43:39] INFO - [ENCRYPT] cfo_user encrypted: chips.jpg
+[2025-07-18 11:43:39] INFO - [SAVE ENCRYPTED] Saved encrypted file: chips.jpg.enc
+[2025-07-18 11:43:39] INFO - [RSA] AES key encrypted for file: chips.jpg.enc
+[2025-07-18 11:43:39] ERROR - [ENCRYPT ERROR] cfo_user - column "userId" of relation "EncryptedFiles" does not exist
+[2025-07-18 13:08:06] INFO - [REQUEST] POST /api/encrypt
+[2025-07-18 13:08:06] WARN - Forbidden: Invalid token. Error: jwt expired
+[2025-07-18 13:08:14] INFO - [REQUEST] POST /api/auth/login
+[2025-07-18 13:08:14] INFO - [LOGIN SUCCESS] cfo_user berhasil login
+[2025-07-18 13:08:31] INFO - [REQUEST] POST /api/encrypt
+[2025-07-18 13:08:31] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO"
+}
+[2025-07-18 13:08:31] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-18 13:08:31] INFO - [UPLOAD] cfo_user uploaded: chips.jpg
+[2025-07-18 13:08:31] INFO - [HASH] SHA-256 for chips.jpg: 336727b6df6dd37d2cfac5e7fa3045e724144cbd9c13b6351b0ec158a26241e5
+[2025-07-18 13:08:31] INFO - [ENCRYPT] cfo_user encrypted: chips.jpg
+[2025-07-18 13:08:31] INFO - [SAVE ENCRYPTED] Saved encrypted file: chips.jpg.enc
+[2025-07-18 13:08:31] INFO - [RSA] AES key encrypted for file: chips.jpg.enc
+[2025-07-18 13:08:31] INFO - [PERFORMANCE] cfo_user - Time: 145.54ms | Memory: -0.35MB | CPU: 0.02%
+[2025-07-18 13:10:39] INFO - [REQUEST] POST /api/decrypt
+[2025-07-18 13:10:39] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO"
+}
+[2025-07-18 13:10:39] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-18 13:10:39] INFO - [INTEGRITY CHECK] File chips.jpg.enc lolos verifikasi SHA-256 oleh cfo_user
+[2025-07-18 13:10:39] INFO - [DECRYPT SUCCESS] cfo_user berhasil mendekripsi file: chips.jpg.enc dalam 113.82 ms
+[2025-07-18 13:11:54] INFO - [REQUEST] POST /send-key
+[2025-07-18 13:12:18] INFO - [REQUEST] POST /send-key
+[2025-07-18 13:12:25] INFO - [REQUEST] POST /api/send-key
+[2025-07-18 13:19:23] INFO - [REQUEST] POST /api/delivery/send-key
+[2025-07-18 13:19:23] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO"
+}
+[2025-07-18 13:19:23] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-18 13:19:23] INFO - [SAVE-DATA] Encrypted data saved: chips.jpg.enc
+[2025-07-18 13:20:12] INFO - [REQUEST] GET /api/get-key
+[2025-07-18 13:20:21] INFO - [REQUEST] GET /api/delivery/get-key
+[2025-07-18 13:20:21] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO"
+}
+[2025-07-18 13:20:21] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-18 13:20:21] INFO - [GET-ALL] Retrieved 2 records
+[2025-07-18 13:21:02] INFO - [REQUEST] POST /api/bruteforce
+[2025-07-18 13:21:02] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO"
+}
+[2025-07-18 13:21:02] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-18 13:21:02] INFO - [BRUTEFORCE] Starting brute-force
+[2025-07-18 13:21:02] INFO - [BRUTEFORCE] File successfully brute-forced and saved
+[2025-07-18 13:21:30] INFO - [REQUEST] GET /api/logs/json
+[2025-07-18 13:21:30] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO"
+}
+[2025-07-18 13:21:30] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-18 13:25:41] INFO - [REQUEST] GET /api/logs/json
+[2025-07-18 13:25:41] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO"
+}
+[2025-07-18 13:25:41] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-18 13:28:20] INFO - [REQUEST] GET /api/logs/json
+[2025-07-18 13:28:20] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO"
+}
+[2025-07-18 13:28:20] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-18 13:28:57] INFO - [REQUEST] GET /logs/csv
+[2025-07-18 13:29:07] INFO - [REQUEST] GET /api/logs/csv
+[2025-07-18 13:29:07] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO"
+}
+[2025-07-18 13:29:07] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-18 13:31:53] INFO - [REQUEST] POST /api/bruteforce
+[2025-07-18 13:31:53] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO"
+}
+[2025-07-18 13:31:53] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-18 13:31:53] INFO - [BRUTEFORCE] Starting brute-force
+[2025-07-18 13:31:53] INFO - [BRUTEFORCE] File successfully brute-forced and saved
+[2025-07-18 13:36:07] INFO - [REQUEST] POST /api/bruteforce
+[2025-07-18 13:36:07] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO"
+}
+[2025-07-18 13:36:07] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-18 13:36:08] WARN - [BRUTEFORCE] Brute-force failed on file chips.jpg.enc
+[2025-07-18 13:36:25] INFO - [REQUEST] GET /api/logs/json
+[2025-07-18 13:36:25] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO"
+}
+[2025-07-18 13:36:25] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-21 20:09:46] INFO - [REQUEST] POST /api/auth/login
+[2025-07-21 20:09:47] INFO - [LOGIN SUCCESS] cfo_user berhasil login
+[2025-07-21 20:12:40] INFO - [REQUEST] POST /api/auth/login
+[2025-07-21 20:12:41] INFO - [LOGIN SUCCESS] auditor_user berhasil login
+[2025-07-21 20:14:07] INFO - [REQUEST] POST /api/auth/login
+[2025-07-21 20:14:07] INFO - [LOGIN SUCCESS] employee berhasil login
+[2025-07-21 20:31:31] INFO - [REQUEST] POST /api/encrypt
+[2025-07-21 20:31:31] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO"
+}
+[2025-07-21 20:31:31] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-21 20:31:31] INFO - [UPLOAD] cfo_user uploaded: rock.jpg
+[2025-07-21 20:31:31] INFO - [HASH] SHA-256 for rock.jpg: e0c12df5fec23716dadfa59733ebc84bfc635bec3df45538b7bbea9425044ff0
+[2025-07-21 20:31:31] INFO - [ENCRYPT] cfo_user encrypted: rock.jpg
+[2025-07-21 20:31:31] INFO - [SAVE ENCRYPTED] Saved encrypted file: rock.jpg.enc
+[2025-07-21 20:31:31] INFO - [RSA] AES key encrypted for file: rock.jpg.enc
+[2025-07-21 20:31:32] INFO - [PERFORMANCE] cfo_user - Time: 300.82ms | Memory: 0.45MB | CPU: 0.10%
+[2025-07-21 20:44:53] INFO - [REQUEST] POST /api/decrypt
+[2025-07-21 20:44:53] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO"
+}
+[2025-07-21 20:44:53] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-21 20:44:53] INFO - [INTEGRITY CHECK] File rock.jpg.enc lolos verifikasi SHA-256 oleh cfo_user
+[2025-07-21 20:44:53] INFO - [DECRYPT SUCCESS] cfo_user berhasil mendekripsi file: rock.jpg.enc dalam 196.60 ms
+[2025-07-21 20:47:33] INFO - [REQUEST] POST /api/decrypt-by-id
+[2025-07-21 20:47:40] INFO - [REQUEST] POST /decrypt-by-id
+[2025-07-21 20:48:49] INFO - [REQUEST] POST /decrypt/by-id
+[2025-07-21 20:48:56] INFO - [REQUEST] POST /api/decrypt/by-id
+[2025-07-21 20:48:56] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO"
+}
+[2025-07-21 20:48:56] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-21 20:48:56] INFO - [DECRYPT BY ID REQUEST] cfo_user mencoba mendekripsi file ID: 3
+[2025-07-21 20:48:56] INFO - [INTEGRITY CHECK] File ID 3 lolos verifikasi SHA-256 oleh cfo_user
+[2025-07-21 20:48:56] INFO - [DECRYPT SUCCESS] cfo_user berhasil mendekripsi file ID 3 dalam 254.79 ms
+[2025-07-21 21:03:33] INFO - [REQUEST] POST /api/encrypt
+[2025-07-21 21:03:33] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO"
+}
+[2025-07-21 21:03:33] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-21 21:03:33] INFO - [UPLOAD] cfo_user uploaded: rock.jpg
+[2025-07-21 21:03:33] INFO - [HASH] SHA-256 for rock.jpg: e0c12df5fec23716dadfa59733ebc84bfc635bec3df45538b7bbea9425044ff0
+[2025-07-21 21:03:33] INFO - [ENCRYPT] cfo_user encrypted: rock.jpg
+[2025-07-21 21:03:33] INFO - [SAVE ENCRYPTED] Saved encrypted file: rock.jpg.enc
+[2025-07-21 21:03:33] INFO - [RSA] AES key encrypted for file: rock.jpg.enc
+[2025-07-21 21:03:33] INFO - [PERFORMANCE] cfo_user - Time: 220.19ms | Memory: 0.37MB | CPU: 0.05%
+[2025-07-21 21:04:11] INFO - [REQUEST] POST /api/delivery/send-key
+[2025-07-21 21:04:11] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO"
+}
+[2025-07-21 21:04:11] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-21 21:04:11] INFO - [SAVE-DATA] Encrypted data saved: rock.jpg.enc
+[2025-07-21 21:05:23] INFO - [REQUEST] POST /api/decrypt/by-id
+[2025-07-21 21:05:23] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO"
+}
+[2025-07-21 21:05:23] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-21 21:05:23] INFO - [DECRYPT BY ID REQUEST] cfo_user mencoba mendekripsi file ID: 3
+[2025-07-21 21:05:23] ERROR - [DECRYPT FAILED] File gagal didekripsi oleh cfo_user untuk ID 3: error:1C800064:Provider routines::bad decrypt
+[2025-07-21 21:05:34] INFO - [REQUEST] POST /api/decrypt/by-id
+[2025-07-21 21:05:34] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO"
+}
+[2025-07-21 21:05:34] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-21 21:05:34] INFO - [DECRYPT BY ID REQUEST] cfo_user mencoba mendekripsi file ID: 4
+[2025-07-21 21:05:34] INFO - [INTEGRITY CHECK] File ID 4 lolos verifikasi SHA-256 oleh cfo_user
+[2025-07-21 21:05:34] INFO - [DECRYPT SUCCESS] cfo_user berhasil mendekripsi file ID 4 dalam 85.16 ms
+[2025-07-21 21:30:43] INFO - [REQUEST] GET /api/delivery/get-key
+[2025-07-21 21:30:43] WARN - Forbidden: Invalid token. Error: jwt expired
+[2025-07-21 21:30:50] INFO - [REQUEST] POST /api/auth/login
+[2025-07-21 21:30:50] INFO - [LOGIN SUCCESS] cfo_user berhasil login
+[2025-07-21 21:31:06] INFO - [REQUEST] GET /api/delivery/get-key
+[2025-07-21 21:31:06] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO"
+}
+[2025-07-21 21:31:06] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-21 21:31:06] INFO - [GET-ALL] Retrieved 5 records
+[2025-07-21 21:36:03] INFO - [REQUEST] GET /get-key/1
+[2025-07-21 21:36:10] INFO - [REQUEST] GET /api/get-key/1
+[2025-07-21 21:36:45] INFO - [REQUEST] GET /get-key/1
+[2025-07-21 21:37:25] INFO - [REQUEST] GET /api/delivery/get-key/1
+[2025-07-21 21:37:25] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO"
+}
+[2025-07-21 21:37:25] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-21 21:37:26] INFO - [GET-BY-ID] Retrieved record: ID 1
+[2025-07-21 21:37:34] INFO - [REQUEST] GET /api/delivery/get-key/3
+[2025-07-21 21:37:34] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO"
+}
+[2025-07-21 21:37:34] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-21 21:37:34] INFO - [GET-BY-ID] Retrieved record: ID 3
+[2025-07-21 21:47:26] INFO - [REQUEST] GET /api/logs/json
+[2025-07-21 21:47:26] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO"
+}
+[2025-07-21 21:47:26] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-21 21:58:05] INFO - [REQUEST] GET /api/logs/csv
+[2025-07-21 21:58:05] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO"
+}
+[2025-07-21 21:58:05] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-21 22:15:14] INFO - [REQUEST] POST /api/bruteforce
+[2025-07-21 22:15:14] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO"
+}
+[2025-07-21 22:15:14] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-21 22:15:14] WARN - [BRUTEFORCE] Brute-force failed on file chips.jpg.enc
+[2025-07-21 22:15:20] INFO - [REQUEST] POST /api/bruteforce
+[2025-07-21 22:15:20] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO"
+}
+[2025-07-21 22:15:20] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-21 22:15:21] WARN - [BRUTEFORCE] Brute-force failed on file rock.jpg.enc
+[2025-07-21 22:15:38] INFO - [REQUEST] POST /api/bruteforce
+[2025-07-21 22:15:38] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO"
+}
+[2025-07-21 22:15:38] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-21 22:15:38] WARN - [BRUTEFORCE] Brute-force failed on file rock.jpg.enc
+[2025-07-22 07:10:25] INFO - [REQUEST] POST /api/auth/login
+[2025-07-22 07:10:26] INFO - [LOGIN SUCCESS] cfo_user berhasil login
+[2025-07-22 07:10:51] INFO - [REQUEST] POST /api/decrypt
+[2025-07-22 07:10:51] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO"
+}
+[2025-07-22 07:10:51] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-22 07:10:52] INFO - [INTEGRITY CHECK] File chips.jpg.enc lolos verifikasi SHA-256 oleh cfo_user
+[2025-07-22 07:10:52] INFO - [DECRYPT SUCCESS] cfo_user berhasil mendekripsi file: chips.jpg.enc dalam 84.46 ms
+[2025-07-22 07:14:17] INFO - [REQUEST] GET /api/delivery/get-key/3
+[2025-07-22 07:14:17] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO"
+}
+[2025-07-22 07:14:17] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-22 07:14:17] INFO - [GET-BY-ID] Retrieved record: ID 3
+[2025-07-22 07:15:20] INFO - [REQUEST] POST /api/decrypt
+[2025-07-22 07:15:20] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO"
+}
+[2025-07-22 07:15:20] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-22 07:15:20] ERROR - [DECRYPT FAILED] Unexpected error oleh cfo_user: error:1C800064:Provider routines::bad decrypt
+[2025-07-22 07:15:42] INFO - [REQUEST] POST /api/decrypt
+[2025-07-22 07:15:42] WARN - Forbidden: Invalid token. Error: jwt expired
+[2025-07-22 07:16:07] INFO - [REQUEST] POST /api/decrypt
+[2025-07-22 07:16:07] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO"
+}
+[2025-07-22 07:16:07] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-22 07:16:07] ERROR - [DECRYPT FAILED] Unexpected error oleh cfo_user: error:1C800064:Provider routines::bad decrypt
+[2025-07-22 07:16:57] INFO - [REQUEST] POST /api/decrypt/by-id
+[2025-07-22 07:16:57] WARN - Forbidden: Invalid token. Error: jwt expired
+[2025-07-22 07:17:07] INFO - [REQUEST] GET /api/delivery/get-key
+[2025-07-22 07:17:07] WARN - Forbidden: Invalid token. Error: jwt expired
+[2025-07-22 07:17:26] INFO - [REQUEST] POST /api/auth/login
+[2025-07-22 07:17:26] INFO - [LOGIN SUCCESS] cfo_user berhasil login
+[2025-07-22 07:17:46] INFO - [REQUEST] POST /api/decrypt
+[2025-07-22 07:17:46] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO"
+}
+[2025-07-22 07:17:46] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-22 07:17:46] INFO - [INTEGRITY CHECK] File chips.jpg.enc lolos verifikasi SHA-256 oleh cfo_user
+[2025-07-22 07:17:46] INFO - [DECRYPT SUCCESS] cfo_user berhasil mendekripsi file: chips.jpg.enc dalam 132.86 ms
+[2025-07-22 07:18:53] INFO - [REQUEST] GET /api/delivery/get-key/3
+[2025-07-22 07:18:53] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO"
+}
+[2025-07-22 07:18:53] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-22 07:18:53] INFO - [GET-BY-ID] Retrieved record: ID 3
+[2025-07-22 07:19:24] INFO - [REQUEST] POST /api/decrypt
+[2025-07-22 07:19:24] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO"
+}
+[2025-07-22 07:19:24] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-22 07:19:24] ERROR - [DECRYPT FAILED] Unexpected error oleh cfo_user: error:1C800064:Provider routines::bad decrypt
+[2025-07-22 07:19:46] INFO - [REQUEST] GET /api/delivery/get-key
+[2025-07-22 07:19:46] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO"
+}
+[2025-07-22 07:19:46] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-22 07:19:46] INFO - [GET-ALL] Retrieved 5 records
+[2025-07-22 07:20:19] INFO - [REQUEST] POST /api/decrypt
+[2025-07-22 07:20:19] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO"
+}
+[2025-07-22 07:20:19] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-22 07:20:19] INFO - [INTEGRITY CHECK] File rock.jpg.enc lolos verifikasi SHA-256 oleh cfo_user
+[2025-07-22 07:20:19] INFO - [DECRYPT SUCCESS] cfo_user berhasil mendekripsi file: rock.jpg.enc dalam 137.26 ms
+[2025-07-22 07:22:16] INFO - [REQUEST] POST /api/decrypt/by-id
+[2025-07-22 07:22:16] WARN - Forbidden: Invalid token. Error: jwt expired
+[2025-07-22 07:22:35] INFO - [REQUEST] POST /api/decrypt/by-id
+[2025-07-22 07:22:35] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO"
+}
+[2025-07-22 07:22:35] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-22 07:22:35] INFO - [DECRYPT BY ID REQUEST] cfo_user mencoba mendekripsi file ID: 4
+[2025-07-22 07:22:35] INFO - [INTEGRITY CHECK] File ID 4 lolos verifikasi SHA-256 oleh cfo_user
+[2025-07-22 07:22:35] INFO - [DECRYPT SUCCESS] cfo_user berhasil mendekripsi file ID 4 dalam 98.77 ms
+[2025-07-22 07:23:58] INFO - [REQUEST] POST /api/decrypt/by-id
+[2025-07-22 07:23:58] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO"
+}
+[2025-07-22 07:23:58] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-22 07:23:58] INFO - [DECRYPT BY ID REQUEST] cfo_user mencoba mendekripsi file ID: 4
+[2025-07-22 07:23:58] INFO - [INTEGRITY CHECK] File ID 4 lolos verifikasi SHA-256 oleh cfo_user
+[2025-07-22 07:23:58] INFO - [DECRYPT SUCCESS] cfo_user berhasil mendekripsi file ID 4 dalam 150.14 ms
+[2025-07-22 07:44:08] INFO - [REQUEST] POST /api/decrypt
+[2025-07-22 07:44:08] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO"
+}
+[2025-07-22 07:44:08] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-22 07:44:08] INFO - [INTEGRITY CHECK] File rock.jpg.enc lolos verifikasi SHA-256 oleh cfo_user
+[2025-07-22 07:44:08] INFO - [DECRYPT SUCCESS] cfo_user berhasil mendekripsi file: rock.jpg.enc dalam 146.50 ms
+[2025-07-22 07:48:35] INFO - [REQUEST] POST /api/decrypt
+[2025-07-22 07:48:35] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO"
+}
+[2025-07-22 07:48:35] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-22 07:48:35] INFO - [INTEGRITY CHECK] File rock.jpg.enc lolos verifikasi SHA-256 oleh cfo_user
+[2025-07-22 07:48:35] INFO - [DECRYPT SUCCESS] cfo_user berhasil mendekripsi file: rock.jpg.enc dalam 159.98 ms
+[2025-07-22 08:21:04] INFO - [REQUEST] POST /api/auth/login
+[2025-07-22 08:21:04] INFO - [LOGIN SUCCESS] cfo_user berhasil login
+[2025-07-22 08:26:08] INFO - [REQUEST] POST /api/encrypt
+[2025-07-22 08:40:24] INFO - [REQUEST] POST /api/auth/login
+[2025-07-22 08:40:24] INFO - [LOGIN SUCCESS] cfo_user berhasil login
+[2025-07-22 08:41:09] INFO - [REQUEST] POST /api/encrypt
+[2025-07-22 08:41:09] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO"
+}
+[2025-07-22 08:41:09] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-22 08:41:09] INFO - [UPLOAD] cfo_user uploaded: rock.jpg
+[2025-07-22 08:41:09] INFO - [HASH] SHA-256 for rock.jpg: e0c12df5fec23716dadfa59733ebc84bfc635bec3df45538b7bbea9425044ff0
+[2025-07-22 08:41:09] INFO - [ENCRYPT] cfo_user encrypted: rock.jpg
+[2025-07-22 08:41:09] INFO - [SAVE ENCRYPTED] Saved encrypted file: rock.jpg.enc
+[2025-07-22 08:41:09] INFO - [RSA] AES key encrypted for file: rock.jpg.enc
+[2025-07-22 08:41:10] INFO - [PERFORMANCE] cfo_user - Time: 145.65ms | Memory: 0.57MB | CPU: 1.98%
+[2025-07-22 08:42:19] INFO - [REQUEST] POST /api/auth/login
+[2025-07-22 08:42:19] INFO - [LOGIN SUCCESS] auditor_user berhasil login
+[2025-07-22 08:42:40] INFO - [REQUEST] POST /api/encrypt
+[2025-07-22 08:42:40] INFO - [AUTH] Token verified. User:
+{
+  "id": 2,
+  "username": "auditor_user",
+  "role": "Auditor"
+}
+[2025-07-22 08:42:40] WARN - [FORBIDDEN] auditor_user (Auditor) tried to access a restricted route
+[2025-07-22 08:44:59] INFO - [REQUEST] POST /api/decrypt
+[2025-07-22 08:44:59] INFO - [AUTH] Token verified. User:
+{
+  "id": 2,
+  "username": "auditor_user",
+  "role": "Auditor"
+}
+[2025-07-22 08:44:59] INFO - [ALLOWED] auditor_user (Auditor) has access
+[2025-07-22 08:44:59] ERROR - [DECRYPT FAILED] Unexpected error oleh auditor_user: error:1C800064:Provider routines::bad decrypt
+[2025-07-22 08:45:55] INFO - [REQUEST] GET /api/delivery/get-key
+[2025-07-22 08:45:55] INFO - [AUTH] Token verified. User:
+{
+  "id": 2,
+  "username": "auditor_user",
+  "role": "Auditor"
+}
+[2025-07-22 08:45:55] INFO - [ALLOWED] auditor_user (Auditor) has access
+[2025-07-22 08:45:55] INFO - [GET-ALL] Retrieved 6 records
+[2025-07-22 08:46:37] INFO - [REQUEST] POST /api/decrypt
+[2025-07-22 08:46:37] INFO - [AUTH] Token verified. User:
+{
+  "id": 2,
+  "username": "auditor_user",
+  "role": "Auditor"
+}
+[2025-07-22 08:46:37] INFO - [ALLOWED] auditor_user (Auditor) has access
+[2025-07-22 08:46:37] INFO - [INTEGRITY CHECK] File rock.jpg.enc lolos verifikasi SHA-256 oleh auditor_user
+[2025-07-22 08:46:37] INFO - [DECRYPT SUCCESS] auditor_user berhasil mendekripsi file: rock.jpg.enc dalam 97.91 ms
+[2025-07-22 09:01:44] INFO - [REQUEST] POST /api/auth/login
+[2025-07-22 09:01:44] INFO - [LOGIN SUCCESS] employee berhasil login
+[2025-07-22 09:02:27] INFO - [REQUEST] POST /api/encrypt
+[2025-07-22 09:02:27] INFO - [AUTH] Token verified. User:
+{
+  "id": 3,
+  "username": "employee",
+  "role": "Employee"
+}
+[2025-07-22 09:02:27] WARN - [FORBIDDEN] employee (Employee) tried to access a restricted route
+[2025-07-22 09:03:04] INFO - [REQUEST] POST /api/encrypt
+[2025-07-22 09:03:04] INFO - [AUTH] Token verified. User:
+{
+  "id": 3,
+  "username": "employee",
+  "role": "Employee"
+}
+[2025-07-22 09:03:04] WARN - [FORBIDDEN] employee (Employee) tried to access a restricted route
+[2025-07-22 09:08:57] INFO - [REQUEST] POST /api/encrypt
+[2025-07-22 09:08:57] INFO - [AUTH] Token verified. User:
+{
+  "id": 3,
+  "username": "employee",
+  "role": "Employee"
+}
+[2025-07-22 09:08:57] WARN - [FORBIDDEN] employee (Employee) tried to access a restricted route
+[2025-07-22 09:09:50] INFO - [REQUEST] POST /api/encrypt
+[2025-07-22 09:10:14] INFO - [REQUEST] POST /api/encrypt
+[2025-07-22 09:11:16] INFO - [REQUEST] POST /api/auth/login
+[2025-07-22 09:11:16] INFO - [LOGIN SUCCESS] employee berhasil login
+[2025-07-22 09:11:57] INFO - [REQUEST] POST /api/encrypt
+[2025-07-22 09:11:57] INFO - [AUTH] Token verified. User:
+{
+  "id": 3,
+  "username": "employee",
+  "role": "Employee"
+}
+[2025-07-22 09:11:57] INFO - [ALLOWED] employee (Employee) has access
+[2025-07-22 09:11:57] INFO - [UPLOAD] employee uploaded: CytochromeB.txt
+[2025-07-22 09:11:57] INFO - [HASH] SHA-256 for CytochromeB.txt: 6d5b22b8e0e0641a7d7584fadcee393e9d81cc9028b76c1fd1bf1581d065a0b8
+[2025-07-22 09:11:57] INFO - [ENCRYPT] employee encrypted: CytochromeB.txt
+[2025-07-22 09:11:57] INFO - [SAVE ENCRYPTED] Saved encrypted file: CytochromeB.txt.enc
+[2025-07-22 09:11:57] INFO - [RSA] AES key encrypted for file: CytochromeB.txt.enc
+[2025-07-22 09:11:57] INFO - [PERFORMANCE] employee - Time: 89.58ms | Memory: 0.63MB | CPU: 1.93%
+[2025-07-22 09:15:53] INFO - [REQUEST] POST /api/decrypt
+[2025-07-22 09:15:53] INFO - [AUTH] Token verified. User:
+{
+  "id": 3,
+  "username": "employee",
+  "role": "Employee"
+}
+[2025-07-22 09:15:53] INFO - [ALLOWED] employee (Employee) has access
+[2025-07-22 09:15:53] INFO - [INTEGRITY CHECK] File CytochromeB.txt.enc lolos verifikasi SHA-256 oleh employee
+[2025-07-22 09:15:53] INFO - [DECRYPT SUCCESS] employee berhasil mendekripsi file: CytochromeB.txt.enc dalam 116.12 ms
+[2025-07-22 09:19:51] INFO - [REQUEST] GET /api/delivery/get-key
+[2025-07-22 09:19:51] INFO - [AUTH] Token verified. User:
+{
+  "id": 3,
+  "username": "employee",
+  "role": "Employee"
+}
+[2025-07-22 09:19:51] WARN - [FORBIDDEN] employee (Employee) tried to access a restricted route
+[2025-07-22 09:21:58] INFO - [REQUEST] GET /api/logs/json
+[2025-07-22 09:21:58] INFO - [AUTH] Token verified. User:
+{
+  "id": 3,
+  "username": "employee",
+  "role": "Employee"
+}
+[2025-07-22 09:21:58] WARN - [FORBIDDEN] employee (Employee) tried to access a restricted route
+[2025-07-22 09:23:08] INFO - [REQUEST] GET /api/logs/csv
+[2025-07-22 09:23:08] INFO - [AUTH] Token verified. User:
+{
+  "id": 3,
+  "username": "employee",
+  "role": "Employee"
+}
+[2025-07-22 09:23:08] WARN - [FORBIDDEN] employee (Employee) tried to access a restricted route
+[2025-07-22 09:24:27] INFO - [REQUEST] POST /api/bruteforce
+[2025-07-22 09:24:27] INFO - [AUTH] Token verified. User:
+{
+  "id": 3,
+  "username": "employee",
+  "role": "Employee"
+}
+[2025-07-22 09:24:27] WARN - [FORBIDDEN] employee (Employee) tried to access a restricted route
+[2025-07-22 09:49:02] INFO - [REQUEST] POST /api/auth/login
+[2025-07-22 09:49:03] INFO - [LOGIN SUCCESS] cfo_user berhasil login
+[2025-07-22 09:50:04] INFO - [REQUEST] POST /api/encrypt
+[2025-07-22 09:50:04] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO"
+}
+[2025-07-22 09:50:04] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-22 09:50:04] INFO - [UPLOAD] cfo_user uploaded: Breast_Cancer_using_Decision_Tree_Algorithm.ipynb
+[2025-07-22 09:50:04] INFO - [HASH] SHA-256 for Breast_Cancer_using_Decision_Tree_Algorithm.ipynb: 779a74f5e1b620dc1c5601b1ee5d1dce76c8e3fd28d3c80521ccc2697727cb55
+[2025-07-22 09:50:04] INFO - [ENCRYPT] cfo_user encrypted: Breast_Cancer_using_Decision_Tree_Algorithm.ipynb
+[2025-07-22 09:50:04] INFO - [SAVE ENCRYPTED] Saved encrypted file: Breast_Cancer_using_Decision_Tree_Algorithm.ipynb.enc
+[2025-07-22 09:50:04] INFO - [RSA] AES key encrypted for file: Breast_Cancer_using_Decision_Tree_Algorithm.ipynb.enc
+[2025-07-22 09:50:04] INFO - [PERFORMANCE] cfo_user - Time: 137.94ms | Memory: 0.40MB | CPU: 0.06%
+[2025-07-22 09:51:19] INFO - [REQUEST] POST /api/encrypt
+[2025-07-22 09:51:19] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO"
+}
+[2025-07-22 09:51:19] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-22 09:51:19] INFO - [UPLOAD] cfo_user uploaded: oral-cancer-prediction-dataset.csv
+[2025-07-22 09:51:19] INFO - [HASH] SHA-256 for oral-cancer-prediction-dataset.csv: 98dd431204612dd4c66ef456acf27181de65b767949339aead80e0f2db0d4948
+[2025-07-22 09:51:19] INFO - [ENCRYPT] cfo_user encrypted: oral-cancer-prediction-dataset.csv
+[2025-07-22 09:51:19] INFO - [SAVE ENCRYPTED] Saved encrypted file: oral-cancer-prediction-dataset.csv.enc
+[2025-07-22 09:51:19] INFO - [RSA] AES key encrypted for file: oral-cancer-prediction-dataset.csv.enc
+[2025-07-22 09:51:19] INFO - [PERFORMANCE] cfo_user - Time: 225.19ms | Memory: -1.41MB | CPU: 0.07%
+[2025-07-22 09:51:47] INFO - [REQUEST] POST /api/encrypt
+[2025-07-22 09:51:47] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO"
+}
+[2025-07-22 09:51:47] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-22 09:51:48] INFO - [UPLOAD] cfo_user uploaded: reminder-automation-testing.zip
+[2025-07-22 09:51:48] INFO - [HASH] SHA-256 for reminder-automation-testing.zip: 6896fb1b1b78a967523b8eb6045655600281ce7538f79a0409b4532d5436c129
+[2025-07-22 09:51:49] INFO - [ENCRYPT] cfo_user encrypted: reminder-automation-testing.zip
+[2025-07-22 09:51:49] INFO - [SAVE ENCRYPTED] Saved encrypted file: reminder-automation-testing.zip.enc
+[2025-07-22 09:51:49] INFO - [RSA] AES key encrypted for file: reminder-automation-testing.zip.enc
+[2025-07-22 09:51:49] INFO - [PERFORMANCE] cfo_user - Time: 1254.98ms | Memory: -0.65MB | CPU: 5.40%
+[2025-07-22 09:52:32] INFO - [REQUEST] POST /api/encrypt
+[2025-07-22 09:52:32] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO"
+}
+[2025-07-22 09:52:32] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-22 09:52:32] INFO - [UPLOAD] cfo_user uploaded: non_borrower_user.csv
+[2025-07-22 09:52:34] INFO - [HASH] SHA-256 for non_borrower_user.csv: 3bd49ab14a2cdd58529967e609d1a77a33b31cc13ca02b2028f6914bce986bcb
+[2025-07-22 09:52:35] INFO - [ENCRYPT] cfo_user encrypted: non_borrower_user.csv
+[2025-07-22 09:52:36] INFO - [SAVE ENCRYPTED] Saved encrypted file: non_borrower_user.csv.enc
+[2025-07-22 09:52:36] INFO - [RSA] AES key encrypted for file: non_borrower_user.csv.enc
+[2025-07-22 09:52:36] INFO - [PERFORMANCE] cfo_user - Time: 3726.96ms | Memory: -0.95MB | CPU: 8.79%
+[2025-07-22 09:53:09] INFO - [REQUEST] POST /api/encrypt
+[2025-07-22 09:53:09] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO"
+}
+[2025-07-22 09:53:09] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-22 09:53:11] INFO - [UPLOAD] cfo_user uploaded: Lens_Studio_5.11.0_x64.dmg
+[2025-07-22 09:53:15] INFO - [HASH] SHA-256 for Lens_Studio_5.11.0_x64.dmg: b617614436c633c7d9e0e51610e7991d5e0cfcc8e051bf6775b1b6a5125d81ec
+[2025-07-22 09:53:22] INFO - [ENCRYPT] cfo_user encrypted: Lens_Studio_5.11.0_x64.dmg
+[2025-07-22 09:53:23] INFO - [SAVE ENCRYPTED] Saved encrypted file: Lens_Studio_5.11.0_x64.dmg.enc
+[2025-07-22 09:53:23] INFO - [RSA] AES key encrypted for file: Lens_Studio_5.11.0_x64.dmg.enc
+[2025-07-22 09:53:23] INFO - [PERFORMANCE] cfo_user - Time: 13729.24ms | Memory: -2.84MB | CPU: 29.60%
+[2025-07-22 09:58:46] INFO - [REQUEST] POST /api/decrypt
+[2025-07-22 09:58:46] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO"
+}
+[2025-07-22 09:58:46] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-22 09:58:46] INFO - [INTEGRITY CHECK] File Breast_Cancer_using_Decision_Tree_Algorithm.ipynb.enc lolos verifikasi SHA-256 oleh cfo_user
+[2025-07-22 09:58:46] INFO - [DECRYPT SUCCESS] cfo_user berhasil mendekripsi file: Breast_Cancer_using_Decision_Tree_Algorithm.ipynb.enc dalam 147.49 ms
+[2025-07-22 09:59:40] INFO - [REQUEST] POST /api/decrypt
+[2025-07-22 09:59:40] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO"
+}
+[2025-07-22 09:59:40] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-22 09:59:40] INFO - [INTEGRITY CHECK] File oral-cancer-prediction-dataset.csv.enc lolos verifikasi SHA-256 oleh cfo_user
+[2025-07-22 09:59:40] INFO - [DECRYPT SUCCESS] cfo_user berhasil mendekripsi file: oral-cancer-prediction-dataset.csv.enc dalam 130.65 ms
+[2025-07-22 10:00:18] INFO - [REQUEST] POST /api/decrypt
+[2025-07-22 10:00:18] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO"
+}
+[2025-07-22 10:00:18] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-22 10:00:19] INFO - [INTEGRITY CHECK] File reminder-automation-testing.zip.enc lolos verifikasi SHA-256 oleh cfo_user
+[2025-07-22 10:00:19] INFO - [DECRYPT SUCCESS] cfo_user berhasil mendekripsi file: reminder-automation-testing.zip.enc dalam 786.34 ms
+[2025-07-22 10:00:47] INFO - [REQUEST] POST /api/decrypt
+[2025-07-22 10:00:47] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO"
+}
+[2025-07-22 10:00:47] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-22 10:00:50] INFO - [INTEGRITY CHECK] File non_borrower_user.csv.enc lolos verifikasi SHA-256 oleh cfo_user
+[2025-07-22 10:00:50] INFO - [DECRYPT SUCCESS] cfo_user berhasil mendekripsi file: non_borrower_user.csv.enc dalam 2684.40 ms
+[2025-07-22 10:01:20] INFO - [REQUEST] POST /api/decrypt
+[2025-07-22 10:01:20] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO"
+}
+[2025-07-22 10:01:20] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-22 10:01:27] INFO - [INTEGRITY CHECK] File Lens_Studio_5.11.0_x64.dmg.enc lolos verifikasi SHA-256 oleh cfo_user
+[2025-07-22 10:01:27] INFO - [DECRYPT SUCCESS] cfo_user berhasil mendekripsi file: Lens_Studio_5.11.0_x64.dmg.enc dalam 7560.59 ms
+[2025-07-22 10:21:40] INFO - [REQUEST] POST /api/encrypt
+[2025-07-22 10:21:40] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO"
+}
+[2025-07-22 10:21:40] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-22 10:21:40] INFO - [UPLOAD] cfo_user uploaded: Breast_Cancer_using_Decision_Tree_Algorithm.ipynb
+[2025-07-22 10:21:40] INFO - [HASH] SHA-256 for Breast_Cancer_using_Decision_Tree_Algorithm.ipynb: 779a74f5e1b620dc1c5601b1ee5d1dce76c8e3fd28d3c80521ccc2697727cb55
+[2025-07-22 10:21:40] INFO - [ENCRYPT] cfo_user encrypted: Breast_Cancer_using_Decision_Tree_Algorithm.ipynb
+[2025-07-22 10:21:40] INFO - [SAVE ENCRYPTED] Saved encrypted file: Breast_Cancer_using_Decision_Tree_Algorithm.ipynb.enc
+[2025-07-22 10:21:40] INFO - [RSA] AES key encrypted for file: Breast_Cancer_using_Decision_Tree_Algorithm.ipynb.enc
+[2025-07-22 10:21:40] ERROR - [ENCRYPT ERROR] cfo_user - memoryDifference is not defined
+[2025-07-22 10:22:42] INFO - [REQUEST] POST /api/encrypt
+[2025-07-22 10:22:42] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO"
+}
+[2025-07-22 10:22:42] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-22 10:22:42] INFO - [UPLOAD] cfo_user uploaded: Breast_Cancer_using_Decision_Tree_Algorithm.ipynb
+[2025-07-22 10:22:42] INFO - [HASH] SHA-256 for Breast_Cancer_using_Decision_Tree_Algorithm.ipynb: 779a74f5e1b620dc1c5601b1ee5d1dce76c8e3fd28d3c80521ccc2697727cb55
+[2025-07-22 10:22:42] INFO - [ENCRYPT] cfo_user encrypted: Breast_Cancer_using_Decision_Tree_Algorithm.ipynb
+[2025-07-22 10:22:42] INFO - [SAVE ENCRYPTED] Saved encrypted file: Breast_Cancer_using_Decision_Tree_Algorithm.ipynb.enc
+[2025-07-22 10:22:42] INFO - [RSA] AES key encrypted for file: Breast_Cancer_using_Decision_Tree_Algorithm.ipynb.enc
+[2025-07-22 10:22:42] INFO - [PERFORMANCE] cfo_user - Time: 171.21ms | Memory: 1.44MB | CPU: 14.00%
+[2025-07-22 10:23:24] INFO - [REQUEST] POST /api/encrypt
+[2025-07-22 10:23:24] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO"
+}
+[2025-07-22 10:23:24] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-22 10:23:24] INFO - [UPLOAD] cfo_user uploaded: oral-cancer-prediction-dataset.csv
+[2025-07-22 10:23:24] INFO - [HASH] SHA-256 for oral-cancer-prediction-dataset.csv: 98dd431204612dd4c66ef456acf27181de65b767949339aead80e0f2db0d4948
+[2025-07-22 10:23:24] INFO - [ENCRYPT] cfo_user encrypted: oral-cancer-prediction-dataset.csv
+[2025-07-22 10:23:24] INFO - [SAVE ENCRYPTED] Saved encrypted file: oral-cancer-prediction-dataset.csv.enc
+[2025-07-22 10:23:24] INFO - [RSA] AES key encrypted for file: oral-cancer-prediction-dataset.csv.enc
+[2025-07-22 10:23:25] INFO - [PERFORMANCE] cfo_user - Time: 227.00ms | Memory: 0.15MB | CPU: 0.79%
+[2025-07-22 10:24:11] INFO - [REQUEST] POST /api/encrypt
+[2025-07-22 10:24:12] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO"
+}
+[2025-07-22 10:24:12] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-22 10:24:12] INFO - [UPLOAD] cfo_user uploaded: reminder-automation-testing.zip
+[2025-07-22 10:24:12] INFO - [HASH] SHA-256 for reminder-automation-testing.zip: 6896fb1b1b78a967523b8eb6045655600281ce7538f79a0409b4532d5436c129
+[2025-07-22 10:24:13] INFO - [ENCRYPT] cfo_user encrypted: reminder-automation-testing.zip
+[2025-07-22 10:24:13] INFO - [SAVE ENCRYPTED] Saved encrypted file: reminder-automation-testing.zip.enc
+[2025-07-22 10:24:13] INFO - [RSA] AES key encrypted for file: reminder-automation-testing.zip.enc
+[2025-07-22 10:24:13] INFO - [PERFORMANCE] cfo_user - Time: 1539.37ms | Memory: 0.08MB | CPU: 3.48%
+[2025-07-22 10:24:58] INFO - [REQUEST] POST /api/encrypt
+[2025-07-22 10:24:58] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO"
+}
+[2025-07-22 10:24:58] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-22 10:24:59] INFO - [UPLOAD] cfo_user uploaded: non_borrower_user.csv
+[2025-07-22 10:25:00] INFO - [HASH] SHA-256 for non_borrower_user.csv: 3bd49ab14a2cdd58529967e609d1a77a33b31cc13ca02b2028f6914bce986bcb
+[2025-07-22 10:25:02] INFO - [ENCRYPT] cfo_user encrypted: non_borrower_user.csv
+[2025-07-22 10:25:02] INFO - [SAVE ENCRYPTED] Saved encrypted file: non_borrower_user.csv.enc
+[2025-07-22 10:25:02] INFO - [RSA] AES key encrypted for file: non_borrower_user.csv.enc
+[2025-07-22 10:25:02] INFO - [PERFORMANCE] cfo_user - Time: 4161.15ms | Memory: 0.81MB | CPU: 8.61%
+[2025-07-22 10:25:35] INFO - [REQUEST] POST /api/encrypt
+[2025-07-22 10:25:35] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO"
+}
+[2025-07-22 10:25:35] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-22 10:25:36] INFO - [UPLOAD] cfo_user uploaded: Lens_Studio_5.11.0_x64.dmg
+[2025-07-22 10:25:43] INFO - [HASH] SHA-256 for Lens_Studio_5.11.0_x64.dmg: b617614436c633c7d9e0e51610e7991d5e0cfcc8e051bf6775b1b6a5125d81ec
+[2025-07-22 10:25:48] INFO - [ENCRYPT] cfo_user encrypted: Lens_Studio_5.11.0_x64.dmg
+[2025-07-22 10:25:49] INFO - [SAVE ENCRYPTED] Saved encrypted file: Lens_Studio_5.11.0_x64.dmg.enc
+[2025-07-22 10:25:49] INFO - [RSA] AES key encrypted for file: Lens_Studio_5.11.0_x64.dmg.enc
+[2025-07-22 10:25:50] INFO - [PERFORMANCE] cfo_user - Time: 14806.77ms | Memory: 2.82MB | CPU: 29.73%
+[2025-07-22 10:30:00] INFO - [REQUEST] POST /api/decrypt
+[2025-07-22 10:30:00] WARN - Forbidden: Invalid token. Error: jwt expired
+[2025-07-22 10:30:08] INFO - [REQUEST] POST /api/auth/login
+[2025-07-22 10:30:08] INFO - [LOGIN SUCCESS] cfo_user berhasil login
+[2025-07-22 10:31:03] INFO - [REQUEST] POST /api/decrypt
+[2025-07-22 10:31:03] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO"
+}
+[2025-07-22 10:31:03] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-22 10:31:03] INFO - [INTEGRITY CHECK] File Breast_Cancer_using_Decision_Tree_Algorithm.ipynb.enc lolos verifikasi SHA-256 oleh cfo_user
+[2025-07-22 10:31:03] INFO - [DECRYPT SUCCESS] cfo_user berhasil mendekripsi file: Breast_Cancer_using_Decision_Tree_Algorithm.ipynb.enc dalam 147.74 ms
+[2025-07-22 10:31:36] INFO - [REQUEST] POST /api/decrypt
+[2025-07-22 10:31:36] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO"
+}
+[2025-07-22 10:31:36] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-22 10:31:36] INFO - [INTEGRITY CHECK] File oral-cancer-prediction-dataset.csv.enc lolos verifikasi SHA-256 oleh cfo_user
+[2025-07-22 10:31:36] INFO - [DECRYPT SUCCESS] cfo_user berhasil mendekripsi file: oral-cancer-prediction-dataset.csv.enc dalam 210.06 ms
+[2025-07-22 10:33:37] INFO - [REQUEST] POST /api/decrypt
+[2025-07-22 10:33:37] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO"
+}
+[2025-07-22 10:33:37] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-22 10:33:37] INFO - [INTEGRITY CHECK] File Breast_Cancer_using_Decision_Tree_Algorithm.ipynb.enc lolos verifikasi SHA-256 oleh cfo_user
+[2025-07-22 10:33:37] INFO - [DECRYPT SUCCESS] cfo_user berhasil mendekripsi file: Breast_Cancer_using_Decision_Tree_Algorithm.ipynb.enc dalam 168.59 ms
+[2025-07-22 10:33:59] INFO - [REQUEST] POST /api/decrypt
+[2025-07-22 10:33:59] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO"
+}
+[2025-07-22 10:33:59] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-22 10:33:59] INFO - [INTEGRITY CHECK] File oral-cancer-prediction-dataset.csv.enc lolos verifikasi SHA-256 oleh cfo_user
+[2025-07-22 10:33:59] INFO - [DECRYPT SUCCESS] cfo_user berhasil mendekripsi file: oral-cancer-prediction-dataset.csv.enc dalam 136.15 ms
+[2025-07-22 10:34:33] INFO - [REQUEST] POST /api/decrypt
+[2025-07-22 10:34:33] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO"
+}
+[2025-07-22 10:34:33] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-22 10:34:34] INFO - [INTEGRITY CHECK] File reminder-automation-testing.zip.enc lolos verifikasi SHA-256 oleh cfo_user
+[2025-07-22 10:34:34] INFO - [DECRYPT SUCCESS] cfo_user berhasil mendekripsi file: reminder-automation-testing.zip.enc dalam 822.48 ms
+[2025-07-22 10:35:05] INFO - [REQUEST] POST /api/decrypt
+[2025-07-22 10:35:05] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO"
+}
+[2025-07-22 10:35:05] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-22 10:35:07] INFO - [INTEGRITY CHECK] File non_borrower_user.csv.enc lolos verifikasi SHA-256 oleh cfo_user
+[2025-07-22 10:35:07] INFO - [DECRYPT SUCCESS] cfo_user berhasil mendekripsi file: non_borrower_user.csv.enc dalam 2330.35 ms
+[2025-07-22 10:35:28] INFO - [REQUEST] POST /api/decrypt
+[2025-07-22 10:35:28] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO"
+}
+[2025-07-22 10:35:28] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-22 10:35:36] INFO - [INTEGRITY CHECK] File Lens_Studio_5.11.0_x64.dmg.enc lolos verifikasi SHA-256 oleh cfo_user
+[2025-07-22 10:35:36] INFO - [DECRYPT SUCCESS] cfo_user berhasil mendekripsi file: Lens_Studio_5.11.0_x64.dmg.enc dalam 8573.18 ms
+[2025-07-23 15:13:39] INFO - [REQUEST] POST /api/auth/login
+[2025-07-23 15:13:39] INFO - [LOGIN SUCCESS] cfo_user berhasil login
+[2025-07-23 15:14:08] INFO - [REQUEST] GET /api/delivery/get-key
+[2025-07-23 15:14:08] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO"
+}
+[2025-07-23 15:14:08] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-23 15:14:08] INFO - [GET-ALL] Retrieved 18 records
+[2025-07-26 08:47:12] INFO - [REQUEST] POST /api/auth/login
+[2025-07-26 08:47:12] INFO - [LOGIN SUCCESS] employee berhasil login
+[2025-07-26 08:47:34] INFO - [REQUEST] GET /api/logs/json
+[2025-07-26 08:47:34] INFO - [AUTH] Token verified. User:
+{
+  "id": 3,
+  "username": "employee",
+  "role": "Employee"
+}
+[2025-07-26 08:47:34] WARN - [FORBIDDEN] employee (Employee) tried to access a restricted route
+[2025-07-26 09:04:29] INFO - [REQUEST] POST /api/auth/login
+[2025-07-26 09:04:29] INFO - [LOGIN SUCCESS] employee berhasil login
+[2025-07-26 09:05:04] INFO - [REQUEST] GET /api/logs/json
+[2025-07-26 09:05:04] INFO - [AUTH] Token verified. User:
+{
+  "id": 3,
+  "username": "employee",
+  "role": "Employee"
+}
+[2025-07-26 09:05:04] WARN - [FORBIDDEN] employee (Employee) tried to access a restricted route
+[2025-07-26 09:18:36] INFO - [REQUEST] GET /api/logs/json
+[2025-07-26 09:18:36] INFO - [AUTH] Token verified. User:
+{
+  "id": 3,
+  "username": "employee",
+  "role": "Employee"
+}
+[2025-07-26 09:18:36] WARN - [FORBIDDEN] employee (Employee) tried to access a restricted route
+[2025-07-26 09:23:01] INFO - [REQUEST] GET /api/logs/json
+[2025-07-26 09:23:01] INFO - [AUTH] Token verified. User:
+{
+  "id": 3,
+  "username": "employee",
+  "role": "Employee"
+}
+[2025-07-26 09:23:01] WARN - [FORBIDDEN] employee (Employee) tried to access /api/logs/json
+[2025-07-26 09:30:50] INFO - [REQUEST] GET /api/logs/json
+[2025-07-26 09:30:50] INFO - [AUTH] Token verified. User:
+{
+  "id": 3,
+  "username": "employee",
+  "role": "Employee"
+}
+[2025-07-26 09:30:50] WARN - [FORBIDDEN] employee (Employee) tried to access /api/logs/json
+[2025-07-26 09:42:01] INFO - [REQUEST] POST /api/auth/login
+[2025-07-26 09:42:01] ERROR - ❌ Failed to insert log to DB notNull Violation: Log.userId cannot be null
+[2025-07-26 09:42:01] INFO - [LOGIN SUCCESS] cfo_user berhasil login
+[2025-07-26 09:42:30] INFO - [REQUEST] GET /api/logs/json
+[2025-07-26 09:42:30] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO"
+}
+[2025-07-26 09:42:30] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-26 10:05:26] INFO - [REQUEST] GET /api/logs/json
+[2025-07-26 10:05:26] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO"
+}
+[2025-07-26 10:05:26] INFO - [ALLOWED] cfo_user (CFO) accessed GET /api/logs/json
+[2025-07-26 10:18:59] INFO - [REQUEST] POST /api/auth/login
+[2025-07-26 10:18:59] ERROR - ❌ Failed to insert log to DB notNull Violation: Log.userId cannot be null
+[2025-07-26 10:19:19] INFO - [REQUEST] POST /api/auth/login
+[2025-07-26 10:19:19] ERROR - ❌ Failed to insert log to DB notNull Violation: Log.userId cannot be null
+[2025-07-26 10:19:20] INFO - [LOGIN SUCCESS] cfo_user berhasil login
+[2025-07-26 10:22:14] INFO - [REQUEST] POST /api/auth/login
+[2025-07-26 10:22:14] ERROR - ❌ Failed to insert log to DB notNull Violation: Log.userId cannot be null
+[2025-07-26 10:22:14] INFO - [LOGIN SUCCESS] cfo_user berhasil login
+[2025-07-26 10:25:09] INFO - [REQUEST] POST /api/auth/login
+[2025-07-26 10:25:09] ERROR - ❌ Failed to insert log to DB notNull Violation: Log.userId cannot be null
+[2025-07-26 10:25:09] INFO - [LOGIN SUCCESS] cfo_user berhasil login
+[2025-07-26 10:27:53] INFO - [REQUEST] POST /api/auth/login
+[2025-07-26 10:27:53] ERROR - ❌ Failed to insert log to DB notNull Violation: Log.userId cannot be null
+[2025-07-26 10:27:53] INFO - [LOGIN SUCCESS] auditor_user berhasil login
+[2025-07-26 10:30:09] INFO - [REQUEST] POST /api/auth/login
+[2025-07-26 10:30:09] ERROR - ❌ Failed to insert log to DB notNull Violation: Log.userId cannot be null
+[2025-07-26 10:30:09] INFO - [LOGIN SUCCESS] auditor_user berhasil login
+[2025-07-26 10:32:16] INFO - [REQUEST] POST /api/auth/login
+[2025-07-26 10:32:16] INFO - [LOGIN SUCCESS] auditor_user berhasil login
+[2025-07-26 10:34:56] INFO - [LOGIN SUCCESS] auditor_user berhasil login
+[2025-07-26 10:38:12] INFO - [LOGIN SUCCESS] auditor_user berhasil login
+[2025-07-26 10:38:40] INFO - [REQUEST] POST /api/auth/login
+[2025-07-26 10:38:41] INFO - [LOGIN SUCCESS] auditor_user berhasil login
+[2025-07-26 10:40:21] INFO - [REQUEST] GET /api/logs/json
+[2025-07-26 10:40:21] INFO - [AUTH] Token verified:
+{
+  "id": 2,
+  "username": "auditor_user",
+  "role": "Auditor"
+}
+[2025-07-26 10:40:21] INFO - [ALLOWED] auditor_user (Auditor) accessed undefined
+[2025-07-26 10:42:15] INFO - [REQUEST] GET /api/logs/json
+[2025-07-26 10:42:15] INFO - [AUTH] Token verified:
+{
+  "id": 2,
+  "username": "auditor_user",
+  "role": "Auditor"
+}
+[2025-07-26 10:42:15] INFO - [ALLOWED] auditor_user (Auditor) accessed /api/logs/json
+[2025-07-26 10:43:11] INFO - [REQUEST] GET /api/logs/json
+[2025-07-26 10:43:11] INFO - [REQUEST] GET /api/logs/json
+[2025-07-26 10:43:11] INFO - [AUTH] Token verified:
+{
+  "id": 2,
+  "username": "auditor_user",
+  "role": "Auditor"
+}
+[2025-07-26 10:43:11] INFO - [ALLOWED] auditor_user (Auditor) accessed undefined
+[2025-07-26 10:48:44] INFO - [REQUEST] POST /api/auth/login
+[2025-07-26 10:48:44] INFO - [LOGIN SUCCESS] cfo_user berhasil login
+[2025-07-26 10:50:14] INFO - [REQUEST] POST /api/auth/login
+[2025-07-26 10:50:14] INFO - [LOGIN SUCCESS] cfo_user berhasil login
+[2025-07-26 10:52:07] INFO - [REQUEST] POST /api/auth/login
+[2025-07-26 10:52:07] INFO - [REQUEST] POST /api/auth/login
+[2025-07-26 10:52:07] INFO - [LOGIN SUCCESS] cfo_user berhasil login
+[2025-07-26 10:53:37] INFO - [REQUEST] POST /api/auth/login
+[2025-07-26 10:53:37] INFO - [REQUEST] POST /api/auth/login
+[2025-07-26 10:53:37] INFO - [LOGIN SUCCESS] cfo_user berhasil login
+[2025-07-26 10:54:35] INFO - [REQUEST] POST /api/auth/login
+[2025-07-26 10:54:36] INFO - [LOGIN SUCCESS] cfo_user berhasil login
+[2025-07-26 10:56:20] INFO - [REQUEST] POST /api/auth/login
+[2025-07-26 10:56:20] INFO - [LOGIN SUCCESS] cfo_user berhasil login
+[2025-07-26 10:59:55] INFO - [REQUEST] POST /api/auth/login
+[2025-07-26 10:59:55] INFO - [LOGIN SUCCESS] cfo_user berhasil login
+[2025-07-26 11:04:40] INFO - [REQUEST] POST /api/auth/login
+[2025-07-26 11:04:41] INFO - [LOGIN SUCCESS] cfo_user berhasil login
+[2025-07-26 11:05:44] INFO - [REQUEST] POST /api/auth/login
+[2025-07-26 11:05:45] INFO - [LOGIN SUCCESS] cfo_user berhasil login
+[2025-07-26 11:06:56] INFO - [REQUEST] POST /api/auth/login
+[2025-07-26 11:06:56] INFO - [LOGIN SUCCESS] cfo_user berhasil login
+[2025-07-26 11:07:44] INFO - [REQUEST] POST /api/auth/login
+[2025-07-26 11:07:44] INFO - [LOGIN SUCCESS] cfo_user berhasil login
+[2025-07-26 11:10:17] INFO - [REQUEST] POST /api/auth/login
+[2025-07-26 11:10:18] INFO - [LOGIN SUCCESS] cfo_user berhasil login
+[2025-07-26 11:12:56] INFO - [REQUEST] POST /api/auth/login
+[2025-07-26 11:13:28] INFO - [REQUEST] POST /api/auth/login
+[2025-07-26 11:14:38] INFO - [REQUEST] POST /api/auth/login
+[2025-07-26 11:14:38] INFO - [LOGIN SUCCESS] cfo_user berhasil login
+[2025-07-26 11:15:11] INFO - [REQUEST] POST /api/auth/login
+[2025-07-26 11:15:11] INFO - [LOGIN SUCCESS] cfo_user berhasil login
+[2025-07-26 11:15:46] INFO - [REQUEST] POST /api/auth/login
+[2025-07-26 11:15:46] INFO - [LOGIN SUCCESS] cfo_user berhasil login
+[2025-07-26 11:17:08] INFO - [REQUEST] POST /api/auth/login
+[2025-07-26 11:17:08] INFO - [LOGIN SUCCESS] cfo_user berhasil login
+[2025-07-26 11:18:48] INFO - [REQUEST] POST /api/auth/login
+[2025-07-26 11:18:48] INFO - [LOGIN SUCCESS] cfo_user berhasil login
+[2025-07-26 11:20:38] INFO - [REQUEST] POST /api/auth/login
+[2025-07-26 11:20:38] INFO - [LOGIN SUCCESS] cfo_user berhasil login
+[2025-07-26 11:22:45] INFO - [REQUEST] POST /api/auth/login
+[2025-07-26 11:22:45] INFO - [LOGIN SUCCESS] cfo_user berhasil login
+[2025-07-26 11:23:44] INFO - [REQUEST] POST /api/auth/login
+[2025-07-26 11:23:45] ERROR - [LOGIN ERROR] notNull Violation: Log.userId cannot be null
+[2025-07-26 11:26:32] INFO - [REQUEST] POST /api/auth/login
+[2025-07-26 11:26:32] INFO - [LOGIN SUCCESS] cfo_user berhasil login
+[2025-07-26 11:51:45] INFO - [LOGIN SUCCESS] cfo_user
+[2025-07-26 11:52:14] INFO - [LOGIN SUCCESS] cfo_user
+[2025-07-26 11:52:29] INFO - [LOGIN SUCCESS] cfo_user
+[2025-07-26 11:53:59] INFO - [LOGIN SUCCESS] cfo_user berhasil login
+[2025-07-26 11:55:22] INFO - [LOGIN SUCCESS] cfo_user berhasil login
+[2025-07-26 14:25:33] INFO - [REQUEST] POST /api/auth/login
+[2025-07-26 14:25:33] INFO - [LOGIN SUCCESS] cfo_user berhasil login
+[2025-07-26 14:29:44] INFO - [LOGIN SUCCESS] cfo_user berhasil login
+[2025-07-26 14:31:28] INFO - [LOGIN SUCCESS] cfo_user berhasil login
+[2025-07-26 14:34:59] INFO - [REQUEST] POST /api/auth/login
+[2025-07-26 14:35:00] INFO - [LOGIN SUCCESS] cfo_user berhasil login
+[2025-07-26 14:35:18] INFO - [REQUEST] POST /api/auth/login
+[2025-07-26 14:35:18] INFO - [LOGIN SUCCESS] cfo_user berhasil login
+[2025-07-26 14:47:21] INFO - [REQUEST] POST /api/auth/login
+[2025-07-26 14:47:21] WARN - [LOGIN FAILED] Invalid credentials
+[2025-07-26 14:47:27] INFO - [REQUEST] POST /api/auth/login
+[2025-07-26 14:47:27] WARN - [LOGIN FAILED] Invalid credentials
+[2025-07-26 14:48:19] INFO - [REQUEST] POST /api/auth/login
+[2025-07-26 14:48:19] INFO - [LOGIN SUCCESS] cfo_user berhasil login
+[2025-07-26 14:59:25] INFO - [REQUEST] POST /api/auth/login
+[2025-07-26 14:59:25] INFO - [LOGIN SUCCESS] cfo_user berhasil login
+[2025-07-26 15:00:00] INFO - [REQUEST] POST /api/auth/login
+[2025-07-26 15:00:00] INFO - [LOGIN SUCCESS] cfo_user berhasil login
+[2025-07-26 15:04:50] WARN - Unauthorized access: Malformed or missing token
+[2025-07-26 15:05:29] INFO - [REQUEST] POST /api/auth/login
+[2025-07-26 15:05:29] INFO - [LOGIN SUCCESS] cfo_user berhasil login
+[2025-07-26 15:07:41] WARN - Unauthorized access: Malformed or missing token
+[2025-07-26 15:08:35] INFO - [LOGIN SUCCESS] cfo_user berhasil login
+[2025-07-26 15:08:40] INFO - [LOGIN SUCCESS] cfo_user berhasil login
+[2025-07-26 15:10:59] INFO - [LOGIN SUCCESS] cfo_user berhasil login
+[2025-07-26 15:12:24] INFO - [LOGIN SUCCESS] cfo_user berhasil login
+[2025-07-26 15:13:21] INFO - [LOGIN] POST /api/auth/login
+[2025-07-26 15:13:21] INFO - [LOGIN SUCCESS] cfo_user berhasil login
+[2025-07-26 15:16:23] INFO - [LOGIN] POST /api/auth/login
+[2025-07-26 15:16:24] INFO - [LOGIN SUCCESS] cfo_user berhasil login
+[2025-07-26 15:17:45] INFO - [LOGIN] POST /api/auth/login
+[2025-07-26 15:17:46] INFO - [LOGIN SUCCESS] cfo_user berhasil login
+[2025-07-26 15:19:10] INFO - [LOG_EXPORT_CSV] GET /api/logs/csv
+[2025-07-26 15:19:10] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO"
+}
+[2025-07-26 15:19:10] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO"
+}
+[2025-07-26 15:19:10] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-26 15:20:13] INFO - [LOGIN] POST /api/auth/login
+[2025-07-26 15:20:13] INFO - [LOGIN SUCCESS] cfo_user berhasil login
+[2025-07-26 15:21:51] INFO - [LOGIN] POST /api/auth/login
+[2025-07-26 15:21:51] INFO - [LOGIN SUCCESS] cfo_user berhasil login
+[2025-07-26 15:23:56] INFO - [LOGIN] POST /api/auth/login
+[2025-07-26 15:23:56] INFO - [LOGIN SUCCESS] cfo_user berhasil login
+[2025-07-26 15:28:12] INFO - [LOGIN] POST /api/auth/login
+[2025-07-26 15:28:13] INFO - [LOGIN SUCCESS] cfo_user berhasil login
+[2025-07-26 15:28:21] INFO - [LOGIN] POST /api/auth/login
+[2025-07-26 15:28:21] INFO - [LOGIN SUCCESS] cfo_user berhasil login
+[2025-07-26 15:29:45] INFO - [LOGIN] POST /api/auth/login
+[2025-07-26 15:29:46] INFO - [LOGIN SUCCESS] cfo_user berhasil login
+[2025-07-26 15:30:43] INFO - [LOGIN] POST /api/auth/login
+[2025-07-26 15:31:01] INFO - [LOGIN] POST /api/auth/login
+[2025-07-26 15:31:01] INFO - [LOGIN SUCCESS] cfo_user berhasil login
+[2025-07-26 15:36:14] INFO - [LOG_EXPORT_CSV] GET /api/logs/csv
+[2025-07-26 15:36:14] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO"
+}
+[2025-07-26 15:36:14] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-26 15:39:39] INFO - [LOG_EXPORT_CSV] GET /api/logs/csv
+[2025-07-26 15:39:39] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO"
+}
+[2025-07-26 15:39:39] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-26 15:41:47] INFO - [LOG_EXPORT_CSV] GET /api/logs/csv
+[2025-07-26 15:41:47] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO"
+}
+[2025-07-26 15:41:47] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-26 15:44:08] INFO - [LOG_EXPORT_CSV] GET /api/logs/csv
+[2025-07-26 15:44:08] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO"
+}
+[2025-07-26 15:44:08] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-26 18:08:10] INFO - [LOGIN] POST /api/auth/login
+[2025-07-26 18:08:10] INFO - [LOGIN SUCCESS] cfo_user berhasil login
+[2025-07-26 18:08:58] INFO - [ENCRYPT] POST /api/encrypt
+[2025-07-26 18:08:58] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO"
+}
+[2025-07-26 18:08:58] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-26 18:08:58] INFO - [UPLOAD] cfo_user uploaded: Breast_Cancer_using_Decision_Tree_Algorithm.ipynb
+[2025-07-26 18:08:58] INFO - [PERFORMANCE] cfo_user - Time: 157.28ms | Memory: 0.56MB | CPU: 1.22%
+[2025-07-26 18:10:20] INFO - [DECRYPT] POST /api/decrypt
+[2025-07-26 18:10:20] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO"
+}
+[2025-07-26 18:10:20] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-26 18:10:20] INFO - [INTEGRITY CHECK] File Breast_Cancer_using_Decision_Tree_Algorithm.ipynb.enc valid SHA-256 oleh cfo_user
+[2025-07-26 18:10:20] INFO - [DECRYPT SUCCESS] cfo_user sukses decrypt Breast_Cancer_using_Decision_Tree_Algorithm.ipynb.enc dalam 56.70 ms
+[2025-07-26 18:10:35] INFO - [DELIVERY_GET_ALL] GET /api/delivery/get-key
+[2025-07-26 18:10:35] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO"
+}
+[2025-07-26 18:10:35] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-26 18:10:35] INFO - [GET-ALL] Retrieved 1 records
+[2025-07-26 18:10:55] INFO - [DECRYPT] POST /api/decrypt/by-id
+[2025-07-26 18:10:55] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO"
+}
+[2025-07-26 18:10:55] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-26 18:10:55] INFO - [DECRYPT BY ID REQUEST] cfo_user mencoba mendekripsi file ID: 1
+[2025-07-26 18:10:55] INFO - [INTEGRITY OK] File ID 1 lolos verifikasi oleh cfo_user
+[2025-07-26 18:10:55] INFO - [DECRYPT SUCCESS] cfo_user sukses dekripsi ID 1 dalam 77.87ms
+[2025-07-26 18:11:09] INFO - [UNKNOWN_ACTION] GET /api/delivery/get-key/1
+[2025-07-26 18:11:09] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO"
+}
+[2025-07-26 18:11:09] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-26 18:11:09] INFO - [GET-BY-ID] Retrieved record: ID 1
+[2025-07-26 18:11:24] INFO - [BRUTEFORCE_ATTEMPT] POST /api/bruteforce
+[2025-07-26 18:11:24] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO"
+}
+[2025-07-26 18:11:24] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-26 18:11:25] WARN - [BRUTEFORCE] Brute-force failed on file Breast_Cancer_using_Decision_Tree_Algorithm.ipynb.enc
+[2025-07-26 18:11:34] INFO - [LOG_VIEW_JSON] GET /api/logs/json
+[2025-07-26 18:11:34] INFO - [LOG_VIEW_JSON] GET /api/logs/json
+[2025-07-26 18:11:34] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO"
+}
+[2025-07-26 18:11:34] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-26 18:11:49] INFO - [LOG_EXPORT_CSV] GET /api/logs/csv
+[2025-07-26 18:11:49] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO"
+}
+[2025-07-26 18:11:49] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-26 18:48:57] INFO - [ENCRYPT] POST /api/encrypt
+[2025-07-26 18:48:57] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO"
+}
+[2025-07-26 18:48:57] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-26 18:48:57] INFO - [UPLOAD] cfo_user uploaded: Breast_Cancer_using_Decision_Tree_Algorithm.ipynb
+[2025-07-26 18:48:57] INFO - [PERFORMANCE] cfo_user - Time: 179.81ms | Memory: 1.37MB | CPU: 7.00%
+[2025-07-26 18:49:29] INFO - [DECRYPT] POST /api/decrypt
+[2025-07-26 18:49:29] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO"
+}
+[2025-07-26 18:49:29] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-26 18:49:30] INFO - [INTEGRITY CHECK] File Breast_Cancer_using_Decision_Tree_Algorithm.ipynb.enc valid SHA-256 oleh cfo_user
+[2025-07-26 18:49:30] INFO - [DECRYPT SUCCESS] cfo_user sukses decrypt Breast_Cancer_using_Decision_Tree_Algorithm.ipynb.enc dalam 109.65 ms
+[2025-07-26 18:49:34] INFO - [DECRYPT] POST /api/decrypt/by-id
+[2025-07-26 18:49:34] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO"
+}
+[2025-07-26 18:49:34] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-26 18:49:34] INFO - [DECRYPT BY ID REQUEST] cfo_user mencoba mendekripsi file ID: 1
+[2025-07-26 18:49:34] ERROR - [DECRYPT FAILED] AES Error oleh cfo_user: error:1C800064:Provider routines::bad decrypt
+[2025-07-26 18:49:43] INFO - [UNKNOWN_ACTION] POST /api/decrypt/by-id/1
+[2025-07-26 18:49:54] INFO - [DECRYPT] POST /api/decrypt/by-id
+[2025-07-26 18:49:54] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO"
+}
+[2025-07-26 18:49:54] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-26 18:49:54] INFO - [DECRYPT BY ID REQUEST] cfo_user mencoba mendekripsi file ID: 1
+[2025-07-26 18:49:54] ERROR - [DECRYPT FAILED] AES Error oleh cfo_user: error:1C800064:Provider routines::bad decrypt
+[2025-07-26 18:50:00] INFO - [DECRYPT] POST /api/decrypt/by-id
+[2025-07-26 18:50:00] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO"
+}
+[2025-07-26 18:50:00] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-26 18:50:00] INFO - [DECRYPT BY ID REQUEST] cfo_user mencoba mendekripsi file ID: 2
+[2025-07-26 18:50:00] INFO - [INTEGRITY OK] File ID 2 lolos verifikasi oleh cfo_user
+[2025-07-26 18:50:00] INFO - [DECRYPT SUCCESS] cfo_user sukses dekripsi ID 2 dalam 67.51ms
+[2025-07-26 18:50:11] INFO - [DELIVERY_GET_ALL] GET /api/delivery/get-key
+[2025-07-26 18:50:11] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO"
+}
+[2025-07-26 18:50:11] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-26 18:50:11] INFO - [GET_ALL] Retrieved 2 records
+[2025-07-26 18:50:24] INFO - [UNKNOWN_ACTION] GET /api/delivery/get-key/2
+[2025-07-26 18:50:24] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO"
+}
+[2025-07-26 18:50:24] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-26 18:50:24] INFO - [GET_BY_ID] Retrieved record: ID 2
+[2025-07-26 18:50:41] INFO - [BRUTEFORCE_ATTEMPT] POST /api/bruteforce
+[2025-07-26 18:50:41] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO"
+}
+[2025-07-26 18:50:41] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-26 18:50:42] WARN - [BRUTEFORCE] Brute-force failed on file Breast_Cancer_using_Decision_Tree_Algorithm.ipynb.enc
+[2025-07-26 18:50:46] INFO - [LOG_VIEW_JSON] GET /api/logs/json
+[2025-07-26 18:50:46] INFO - [LOG_VIEW_JSON] GET /api/logs/json
+[2025-07-26 18:50:46] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO"
+}
+[2025-07-26 18:50:46] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-26 18:50:55] INFO - [LOG_EXPORT_CSV] GET /api/logs/csv
+[2025-07-26 18:50:55] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO"
+}
+[2025-07-26 18:50:55] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-26 18:53:30] INFO - [LOG_EXPORT_CSV] GET /api/logs/csv
+[2025-07-26 18:53:30] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO"
+}
+[2025-07-26 18:53:30] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-26 18:53:35] INFO - [LOG_VIEW_JSON] GET /api/logs/json
+[2025-07-26 18:53:35] INFO - [LOG_VIEW_JSON] GET /api/logs/json
+[2025-07-26 18:53:35] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO"
+}
+[2025-07-26 18:53:35] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-26 18:53:52] INFO - [LOG_VIEW_JSON] GET /api/logs/json
+[2025-07-26 18:53:52] INFO - [LOG_VIEW_JSON] GET /api/logs/json
+[2025-07-26 18:53:52] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO"
+}
+[2025-07-26 18:53:52] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-26 18:53:56] INFO - [LOG_EXPORT_CSV] GET /api/logs/csv
+[2025-07-26 18:53:56] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO"
+}
+[2025-07-26 18:53:56] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-27 20:46:07] INFO - [LOGIN] POST /api/auth/login
+[2025-07-27 20:46:08] INFO - [LOGIN SUCCESS] cfo_user berhasil login
+[2025-07-27 20:46:38] INFO - [LOG_VIEW_JSON] GET /api/logs/json
+[2025-07-27 20:46:38] INFO - [LOG_VIEW_JSON] GET /api/logs/json
+[2025-07-27 20:46:39] INFO - [AUTH] Token verified. User:
+{
+  "id": 1,
+  "username": "cfo_user",
+  "role": "CFO"
+}
+[2025-07-27 20:46:39] INFO - [ALLOWED] cfo_user (CFO) has access
+[2025-07-27 20:56:10] INFO - [LOGIN] POST /api/auth/login
+[2025-07-27 20:56:10] INFO - [LOGIN SUCCESS] employee berhasil login
+[2025-07-27 20:56:29] INFO - [LOG_VIEW_JSON] GET /api/logs/json
+[2025-07-27 20:56:29] INFO - [LOG_VIEW_JSON] GET /api/logs/json
+[2025-07-27 20:56:29] INFO - [AUTH] Token verified. User:
+{
+  "id": 3,
+  "username": "employee",
+  "role": "Employee"
+}
+[2025-07-27 20:56:29] WARN - [FORBIDDEN] employee (Employee) tried to access a restricted route
+[2025-07-27 22:21:07] INFO - [LOGIN] POST /api/auth/login
+[2025-07-27 22:21:07] WARN - [LOGIN FAILED] Invalid credentials

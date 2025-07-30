@@ -2,24 +2,26 @@
 
 module.exports = {
   async up(queryInterface, Sequelize) {
-    await queryInterface.createTable("logs", {
+    await queryInterface.createTable("Logs", {
       id: {
         allowNull: false,
         autoIncrement: true,
         primaryKey: true,
         type: Sequelize.INTEGER,
       },
-      username: {
-        type: Sequelize.STRING,
-        allowNull: false,
+      userId: {
+        type: Sequelize.INTEGER,
+        allowNull: true, // ← sekarang bisa null untuk kasus login gagal
+        references: {
+          model: "Users",
+          key: "id",
+        },
+        onUpdate: "CASCADE",
+        onDelete: "SET NULL", // lebih aman, jika user dihapus log tetap ada
       },
-      role: {
+      endpointAccess: {
         type: Sequelize.STRING,
-        allowNull: false,
-      },
-      filename: {
-        type: Sequelize.STRING,
-        allowNull: false,
+        allowNull: true,
       },
       action: {
         type: Sequelize.STRING,
@@ -28,6 +30,14 @@ module.exports = {
       status: {
         type: Sequelize.STRING,
         allowNull: false,
+      },
+      fileName: {
+        type: Sequelize.STRING,
+        allowNull: true,
+      },
+      ip: {
+        type: Sequelize.STRING,
+        allowNull: true,
       },
       createdAt: {
         allowNull: false,
@@ -43,6 +53,6 @@ module.exports = {
   },
 
   async down(queryInterface, Sequelize) {
-    await queryInterface.dropTable("logs");
+    await queryInterface.dropTable("Logs");
   },
 };

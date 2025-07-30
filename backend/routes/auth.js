@@ -1,7 +1,16 @@
 const express = require("express");
-const router = express.Router();
+const { body } = require("express-validator");
 const { login } = require("../controllers/authController");
 
-router.post("/login", login);
+const router = express.Router();
 
-module.exports = router ;
+// Validasi input login
+const validateLogin = [
+  body("username").trim().notEmpty().withMessage("Username is required"),
+  body("password").notEmpty().withMessage("Password is required"),
+];
+
+// Endpoint login
+router.post("/login", validateLogin, login);
+
+module.exports = router;
